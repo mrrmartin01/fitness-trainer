@@ -1,0 +1,12 @@
+.user-input{
+    outline:none ;
+}
+
+.user-input::placeholder{
+    font-family: monospace;
+    font-size: x-large;
+}
+
+.user-input:focus{
+    border-bottom: 2px solid #1bbb86;
+}
