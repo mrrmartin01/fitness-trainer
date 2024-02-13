@@ -17,7 +17,6 @@ function NavList() {
         </li>
         
       ))}
-        <hr className="bg-red-300 flex "></hr>
 
     </>
   );
