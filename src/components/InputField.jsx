@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types'; // Import PropTypes
-
 import './inputfield.css';
 
 function InputField({ placeholder, type, className, label,onChange }) {

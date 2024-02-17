@@ -1,10 +1,12 @@
+import PropTypes from 'prop-types';
 
-function Card({ className}) {
-  return (
-    <div className= {className}>
-      
-    </div>
-  )
+function Card({ className, children }) {
+  return <div className={className}>{children}</div>;
 }
 
-export default Card
+Card.propTypes = {
+  className: PropTypes.string,
+  children: PropTypes.node,
+};
+
+export default Card;
