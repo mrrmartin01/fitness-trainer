@@ -1,11 +1,14 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
-function Card({ className, children }) {
-  return <div className={className}>{children}</div>;
+function Card({ children }) {
+  return (
+    <>
+      <div className="w-[45%] h-40 rounded-xl bg-gray-500">{children}</div>
+    </>
+  );
 }
 
 Card.propTypes = {
-  className: PropTypes.string,
   children: PropTypes.node,
 };
 
