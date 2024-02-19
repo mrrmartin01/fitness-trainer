@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types'; 
+import PropTypes from 'prop-types';
 
 function Button({value, onClick, className, type, icon}) {
   return (
@@ -8,9 +8,13 @@ function Button({value, onClick, className, type, icon}) {
     </button>
   );
 }
-Button.PropTypes ={
+
+Button.propTypes ={
   value : PropTypes.string.isRequired,
   onClick : PropTypes.func.isRequired,
+  className: PropTypes.string,
+  type: PropTypes.string,
+  icon: PropTypes.element
 }
 
 export default Button;  

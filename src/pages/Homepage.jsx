@@ -1,20 +1,57 @@
 import Card from "../components/Card";
-import './home.css';
+import Row from "../components/Row";
+import "./home.css";
+import { FaHome } from "react-icons/fa";
 
 function Homepage() {
   return (
     <>
       <div className="cardy">
-        <Card className="w-[45%] h-40 rounded-xl bg-gray-500">
-         <div className="flex flex-row justify-between p-4">
-          <div>
-            <span className="">Hello</span>
+        <Card>
+          <div className="flex flex-row justify-between p-4">
+            <div>
+              <Row
+                value={
+                  <>
+                    <h1>0</h1>
+                    <p>Day streak</p>
+                    <p className="text-gray-700">
+                      Personal best:
+                      {
+                        //! Script to calculate streaks//
+                      }
+                    </p>
+                  </>
+                }
+              />
+            </div>
+            <div>
+              <Row value={<FaHome />} />
+            </div>
           </div>
-            <span className="">Hello</span>
-         </div>
         </Card>
-        <Card className="w-[45%] h-40 rounded-xl bg-gray-500">
-          <span>Hello</span>
+        <Card>
+          <div className="flex flex-row justify-between p-4">
+            <div>
+              <Row
+                value={
+                  <>
+                    <h1>0/3</h1>
+                    <p>This week</p>
+                    <p className="text-gray-700">
+                      <span className="lowercase ">in</span> Total:
+                      {
+                        //! Script to calculate the number of weeks the app has been used
+                      }
+                    </p>
+                  </>
+                }
+              />
+            </div>
+            <div>
+              <Row />
+            </div>
+          </div>
         </Card>
       </div>
     </>
