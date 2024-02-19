@@ -10,7 +10,7 @@ function Row({value}) {
 
 Row.propTypes = {
     className: PropTypes.string,
-    value: PropTypes.string,
+    value: PropTypes.object,
     children: PropTypes.node,
   };
 
