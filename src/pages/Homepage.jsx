@@ -10,10 +10,8 @@ function Homepage() {
 
   useEffect(() => {
     const calculateStreak = () => {
-      // Get the current date and time
-      const currentDate = new Date();
+      const currentDate = new Date(); // Getting currrent date
 
-      // Get the stored date and time from local storage
       const storedDate = localStorage.getItem("streakDate");
 
       // If there is no stored date, set the streak to 1
@@ -33,11 +31,9 @@ function Homepage() {
       if (differenceInHours <= 24) {
         setStreak((prevStreak) => prevStreak + 1);
       } else {
-        // Otherwise, set the streak to 1
         setStreak(1);
       }
 
-      // Update the stored date to the current date
       localStorage.setItem("streakDate", currentDate.toISOString());
     };
 
@@ -70,7 +66,6 @@ function Homepage() {
                 value={
                   <>
                     <FaFireFlameCurved className="text-[#ea580c]" />
-                    <span className="pl-2">{streak}</span>
                   </>
                 }
               />
