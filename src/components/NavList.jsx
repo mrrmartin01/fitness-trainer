@@ -8,9 +8,8 @@ function NavList() {
         <li key={item._id} className="">
           <Link
             to={item.url}
-            className={`flex gap-1 items-center hover:bg-gray-500 rounded-lg p-4 ${
-              item.active ? "bg-gray-500" : ""
-            }
+            className={`flex gap-1 items-center hover:bg-gray-500 rounded-lg p-4 
+            ${item.active?  "bg-gray-500" : ""}
             `}
           >
             {item.icon && <item.icon className="mr-4" />}
