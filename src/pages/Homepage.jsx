@@ -3,7 +3,7 @@ import Card from "../components/Card";
 import Row from "../components/Row";
 import "./home.css";
 import { FaFireFlameCurved } from "react-icons/fa6";
-import { FaSquareFull } from "react-icons/fa";
+import { SlCalender } from "react-icons/sl";
 
 function Homepage() {
   const [streak, setStreak] = useState(0);
@@ -52,9 +52,9 @@ function Homepage() {
                     <h1>{streak}</h1>
                     <p>Day streak</p>
                     <p className="text-gray-700">
-                      Personal best:{" "}
+                      Personal best:{streak}
                       <span className="font-bold">
-                        {localStorage.getItem("personalBest") || "0"}
+                        {localStorage.getItem("personalBest")}
                       </span>
                     </p>
                   </>
@@ -94,13 +94,14 @@ function Homepage() {
             <div>
               <Row
                 value={
-                  <FaSquareFull className="text-blue-500 border-solid border-2 border-green-500 p-1 rounded-lg" />
+                  <SlCalender className="text-blue-500 border-2 border-green-500 p-1 rounded-[20%] w-[90%] h-[90%]" />
                 }
               />
             </div>
           </div>
         </Card>
       </div>
+
     </>
   );
 }
