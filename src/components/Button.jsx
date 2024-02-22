@@ -11,7 +11,7 @@ function Button({value, onClick, className, type, icon}) {
 
 Button.propTypes ={
   value : PropTypes.string.isRequired,
-  onClick : PropTypes.func.isRequired,
+  onClick : PropTypes.func,
   className: PropTypes.string,
   type: PropTypes.string,
   icon: PropTypes.element
