@@ -1,9 +1,11 @@
 import NavData from "../data/NavListData";
 import { Link } from "react-router-dom";
+import ProfilePic from "./ProfilePic";
 
 function NavList() {
   return (
     <>
+    <ProfilePic />
       {NavData.map((item) => (
         <li key={item._id} className="">
           <Link

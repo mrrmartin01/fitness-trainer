@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
 import Card from "../components/Card";
-import Row from "../components/Row";
+import Rows from "../components/Rows";
 import "./home.css";
 import { FaFireFlameCurved } from "react-icons/fa6";
-import { FaSquareFull } from "react-icons/fa";
+import { SlCalender } from "react-icons/sl";
+import Marquee from "../components/Marquee";
 
 function Homepage() {
   const [streak, setStreak] = useState(0);
@@ -46,15 +47,15 @@ function Homepage() {
         <Card>
           <div className="flex flex-row justify-between p-4">
             <div>
-              <Row
+              <Rows
                 value={
                   <>
                     <h1>{streak}</h1>
                     <p>Day streak</p>
                     <p className="text-gray-700">
-                      Personal best:{" "}
+                      Personal best:{streak}
                       <span className="font-bold">
-                        {localStorage.getItem("personalBest") || "0"}
+                        {localStorage.getItem("personalBest")}
                       </span>
                     </p>
                   </>
@@ -62,7 +63,7 @@ function Homepage() {
               />
             </div>
             <div>
-              <Row
+              <Rows
                 value={
                   <>
                     <FaFireFlameCurved className="text-[#ea580c]" />
@@ -75,7 +76,7 @@ function Homepage() {
         <Card>
           <div className="flex flex-row justify-between p-4">
             <div>
-              <Row
+              <Rows
                 value={
                   <>
                     <h1>0/3</h1>
@@ -83,7 +84,6 @@ function Homepage() {
                     <p className="text-gray-700">
                       <span className="lowercase ">in</span> Total:
                       {
-                        // Calculate the number of weeks the app has been used
                         Math.ceil(streak / 7)
                       }
                     </p>
@@ -92,15 +92,21 @@ function Homepage() {
               />
             </div>
             <div>
-              <Row
+              <Rows
                 value={
-                  <FaSquareFull className="text-blue-500 border-solid border-2 border-green-500 p-1 rounded-lg" />
+                  <SlCalender className="text-blue-500 border-2 border-green-500 p-1 rounded-[20%] w-[90%] h-[90%]" />
                 }
               />
             </div>
           </div>
         </Card>
       </div>
+      <div className="flex flex-row justify-start gap-4 mt-4 text-2xl text-gray-500 font-bold">
+        <p>Recent</p>
+        <p>My Plan</p>
+      </div>
+
+      <Marquee />
     </>
   );
 }

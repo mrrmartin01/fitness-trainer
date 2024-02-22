@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 
-function Row({value}) {
+function Rows({value}) {
+
   return (
     <div className="text-[30px] capitalize font-semibold">
       <span className="mt-auto">{value}</span>
@@ -8,10 +9,11 @@ function Row({value}) {
   );
 }
 
-Row.propTypes = {
+Rows.propTypes = {
     className: PropTypes.string,
     value: PropTypes.object,
+    props: PropTypes.object,
     children: PropTypes.node,
   };
 
-export default Row;
+export default Rows;
