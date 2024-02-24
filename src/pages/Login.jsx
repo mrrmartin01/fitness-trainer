@@ -56,6 +56,7 @@ function Login() {
           <InputField
             label="Password"
             value={Password}
+            autoComplete = "current-password"
             onChange={(e) => setPassword(e.target.value)}
             placeholder="Enter password"
             className="w-[400px] h-12 rounded-lg p-2 bg-white border-2 border-gray-300 user-input"
