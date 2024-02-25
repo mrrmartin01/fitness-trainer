@@ -1,7 +1,7 @@
 import { useState } from "react";
 import NavData from "../data/NavListData";
 import { Link } from "react-router-dom";
-import ProfilePic from "./ProfilePic";
+import ProfilePic from "./ProfilePic";  
 
 function NavList() {
   const [navItems, setNavItems] = useState(NavData);
