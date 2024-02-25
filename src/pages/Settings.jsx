@@ -17,7 +17,7 @@ function Settings() {
           }
           value="Sync Data"
           type="button"
-          className="w-[30%] h-12 rounded-full p-2 bg-gradient-to-br from-blue-400 to-blue-600 text-white text-[20px] font-serif flex flex-row  justify-center m-auto"
+          className="w-[45%] h-12 rounded-full p-2 bg-gradient-to-br from-blue-400 to-blue-600 text-white text-[20px] font-serif flex flex-row  justify-center"
         />
         <div className="flex flex-row items-center justify-center ">
           <IoSync className="text-4xl mr-2 pt-4 text-blue-500" />
@@ -30,9 +30,9 @@ function Settings() {
               <FaCrown className="h-7 w-7 pl-1 btnIicons" />
             </span>
           }
-          value="Sync Data"
+          value="Go Premium"
           type="button"
-          className="w-[30%] h-12 rounded-full p-2 bg-gradient-to-br from-yellow-500 to-yellow-600 text-white text-[20px] font-serif flex flex-row  justify-center m-auto"
+          className="w-[45%] h-12 rounded-full p-2 bg-gradient-to-br from-yellow-300 to-yellow-500 text-black text-[20px] font-serif flex flex-row  justify-center mt-5"
         />
       </div>
     </>
