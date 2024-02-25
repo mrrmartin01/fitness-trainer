@@ -27,7 +27,7 @@ function Marquee() {
           <Link
             key={workouts._id}
             to={workouts.url}
-            className="bg-gray-800 rounded-lg overflow-hidden shadow-lg flex-shrink-0 w-64 mb-3"
+            className="bg-gray-800 rounded-[15px] overflow-hidden shadow-lg flex-shrink-0 w-64 mb-3"
           >
             <img
               src={workouts.img}
