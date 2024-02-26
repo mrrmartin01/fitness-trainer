@@ -3,6 +3,7 @@ import ProfilePic from "../components/ProfilePic";
 import { IoCloudUploadOutline } from "react-icons/io5";
 import { IoSync } from "react-icons/io5";
 import { FaCrown } from "react-icons/fa";
+import SettingsPath from "../components/SettingsPath";
 
 function Settings() {
   return (
@@ -21,8 +22,10 @@ function Settings() {
         />
         <div className="flex flex-row items-center justify-center ">
           <IoSync className="text-4xl mr-2 pt-4 text-blue-500" />
-          <p className="mt-4 text-xl">Last Sync:
-          <span>Today 11:30pm</span></p>
+          <p className="mt-4 text-xl">
+            Last Sync:
+            <span>Today 11:30pm</span>
+          </p>
         </div>
         <Button
           icon={
@@ -33,6 +36,9 @@ function Settings() {
           value="Go Premium"
           type="button"
           className="w-[45%] h-12 rounded-full p-2 bg-gradient-to-br from-yellow-300 to-yellow-500 text-black text-[20px] font-serif flex flex-row  justify-center mt-5"
+        />
+        <SettingsPath
+        value="Profile"
         />
       </div>
     </>
