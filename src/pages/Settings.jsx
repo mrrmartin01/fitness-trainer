@@ -56,6 +56,39 @@ function Settings() {
         <div className="mt-10 flex items-start">
         <h2 className ="text-left">Settings</h2>
         </div>
+
+        <SettingsPath
+          value="Workout Settings"
+          icon={
+            <div className="bg-yellow-600 p-2 text-[30px] rounded-xl">
+              <FaRegSmile />
+            </div>
+          }
+        />
+        <SettingsPath
+          value="General Settings"
+          icon={
+            <div className="bg-yellow-600 p-2 text-[30px] rounded-xl">
+              <FaRegSmile />
+            </div>
+          }
+        />
+        <SettingsPath
+          value="Language Options"
+          icon={
+            <div className="bg-yellow-600 p-2 text-[30px] rounded-xl">
+              <FaRegSmile />
+            </div>
+          }
+        />
+        <SettingsPath
+          value="Apple Health"
+          icon={
+            <div className="bg-yellow-600 p-2 text-[30px] rounded-xl">
+              <FaRegSmile />
+            </div>
+          }
+        />
       </div>
     </>
   );
