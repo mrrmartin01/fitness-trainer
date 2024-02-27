@@ -1,7 +1,7 @@
 import Proptypes from "prop-types";
 import { MdKeyboardArrowRight } from "react-icons/md";
 
-function SettingsPath({ value ,  icon , className }) {
+function SettingsPath({ value ,  button : buttonValue = <MdKeyboardArrowRight/> ,icon , className }) {
   return (
     <div className="bg-gray-700 hover:bg-purple-500 hover:text-gray border-b-[1px] border-gray-300 w-[102.3%] h-[70px] flex flex-row items-center justify-between">
       <button className="flex flex-row items-center justify-between p-3 w-full h-full">
@@ -10,7 +10,9 @@ function SettingsPath({ value ,  icon , className }) {
           <div className ="pl-3 text-[20px] font-semibold font-Arial">{value}</div>
         </div>
         <div className="">
-        <MdKeyboardArrowRight className ="text-[40px]"/>
+        <span className ="text-[40px]">
+          {buttonValue}
+        </span>
         </div>
       </button>
     </div>
@@ -21,6 +23,7 @@ SettingsPath.propTypes = {
   value: Proptypes.string.isRequired,
   className: Proptypes.string.isRequired,
   icon: Proptypes.element.isRequired,
+  button: Proptypes.oneOfType([Proptypes.element, Proptypes.func]).isRequired,
 };
 
 export default SettingsPath;

@@ -5,6 +5,7 @@ import { IoMdSettings, IoMdWater } from "react-icons/io";
 import { FaCrown, FaRegSmile, FaAppStoreIos, FaGlobe } from "react-icons/fa";
 import SettingsPath from "../components/SettingsPath";
 import SettingsDescib from "../components/SettingsDescib";
+import RadioSwitch from "../components/RadioSwitch";
 
 function Settings() {
   return (
@@ -84,6 +85,7 @@ function Settings() {
         />
         <SettingsPath
           value="Apple Health"
+          button ={<RadioSwitch/>}
           icon={
             <div className=" p-2 text-[30px] rounded-xl">
               <FaAppStoreIos />
