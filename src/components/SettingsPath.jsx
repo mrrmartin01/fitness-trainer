@@ -3,7 +3,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 function SettingsPath({ value ,  icon , className }) {
   return (
-    <div className="bg-gray-700 hover:bg-green-100 hover:text-black border-b-[1px] border-gray-300 w-[102.3%] h-[90px] flex flex-row items-center justify-between">
+    <div className="bg-gray-700 hover:bg-green-100 hover:text-black border-b-[1px] border-gray-300 w-[102.3%] h-[70px] flex flex-row items-center justify-between">
       <button className="flex flex-row items-center justify-between p-3 w-full h-full">
         <div className="flex flex-row items-center justify-center">
           <div className={className}>{icon}</div>
