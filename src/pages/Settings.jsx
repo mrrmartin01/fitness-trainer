@@ -2,7 +2,7 @@ import Button from "../components/Button";
 import ProfilePic from "../components/ProfilePic";
 import { IoCloudUploadOutline } from "react-icons/io5";
 import { IoSync } from "react-icons/io5";
-import { FaCrown, FaRegSmile } from "react-icons/fa";
+import { FaCrown, FaRegSmile, FaAppStoreIos  } from "react-icons/fa";
 import SettingsPath from "../components/SettingsPath";
 
 function Settings() {
@@ -53,8 +53,8 @@ function Settings() {
             </div>
           }
         />
-        <div className="mt-10 flex items-start">
-        <h2 className ="text-left">Settings</h2>
+        <div className="m-2 w-[102.3%] h-[70px] flex justify-start ">
+        <h2 className ="font-mono text-3xl text-black flex p-20 self-center">Settings</h2>
         </div>
 
         <SettingsPath
@@ -76,7 +76,7 @@ function Settings() {
         <SettingsPath
           value="Language Options"
           icon={
-            <div className="bg-yellow-600 p-2 text-[30px] rounded-xl">
+            <div className="bg-yellow-600 hover:text-red-500 p-2 text-[30px] rounded-xl">
               <FaRegSmile />
             </div>
           }
@@ -84,8 +84,8 @@ function Settings() {
         <SettingsPath
           value="Apple Health" 
           icon={
-            <div className="bg-yellow-600 p-2 text-[30px] rounded-xl">
-              <FaRegSmile />
+            <div className=" p-2 text-[30px] rounded-xl">
+              <FaAppStoreIos  />
             </div>
           }
         />
