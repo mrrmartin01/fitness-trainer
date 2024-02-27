@@ -1,9 +1,10 @@
 import Button from "../components/Button";
 import ProfilePic from "../components/ProfilePic";
-import { IoCloudUploadOutline } from "react-icons/io5";
-import { IoSync } from "react-icons/io5";
-import { FaCrown, FaRegSmile, FaAppStoreIos  } from "react-icons/fa";
+import { IoCloudUploadOutline, IoSync } from "react-icons/io5";
+import { IoMdSettings, IoMdWater } from "react-icons/io";
+import { FaCrown, FaRegSmile, FaAppStoreIos, FaGlobe } from "react-icons/fa";
 import SettingsPath from "../components/SettingsPath";
+import SettingsDescib from "../components/SettingsDescib";
 
 function Settings() {
   return (
@@ -46,22 +47,22 @@ function Settings() {
           }
         />
         <SettingsPath
-          value="My Profile"
+          value="My Favorite"
           icon={
             <div className="bg-blue-700 p-2 text-[30px] rounded-xl">
               <FaRegSmile />
             </div>
           }
         />
-        <div className="m-2 w-[102.3%] h-[70px] flex justify-start ">
-        <h2 className ="font-mono text-3xl text-black flex p-20 self-center">Settings</h2>
-        </div>
+        <SettingsDescib
+        value="Setting"
+        />
 
         <SettingsPath
           value="Workout Settings"
           icon={
             <div className="bg-yellow-600 p-2 text-[30px] rounded-xl">
-              <FaRegSmile />
+              <IoMdWater />
             </div>
           }
         />
@@ -69,7 +70,7 @@ function Settings() {
           value="General Settings"
           icon={
             <div className="bg-yellow-600 p-2 text-[30px] rounded-xl">
-              <FaRegSmile />
+              <IoMdSettings />
             </div>
           }
         />
@@ -77,15 +78,15 @@ function Settings() {
           value="Language Options"
           icon={
             <div className="bg-yellow-600 hover:text-red-500 p-2 text-[30px] rounded-xl">
-              <FaRegSmile />
+              <FaGlobe />
             </div>
           }
         />
         <SettingsPath
-          value="Apple Health" 
+          value="Apple Health"
           icon={
             <div className=" p-2 text-[30px] rounded-xl">
-              <FaAppStoreIos  />
+              <FaAppStoreIos />
             </div>
           }
         />
