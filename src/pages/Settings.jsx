@@ -82,7 +82,7 @@ function Settings() {
           }
         />
         <SettingsPath
-          value="Apple Health"
+          value="Apple Health" 
           icon={
             <div className="bg-yellow-600 p-2 text-[30px] rounded-xl">
               <FaRegSmile />
