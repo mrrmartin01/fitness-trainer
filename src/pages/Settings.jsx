@@ -1,8 +1,9 @@
 import Button from "../components/Button";
 import ProfilePic from "../components/ProfilePic";
-import { IoCloudUploadOutline, IoSync } from "react-icons/io5";
+import { IoCloudUploadOutline, IoSync, IoGridSharp, IoPencilSharp   } from "react-icons/io5";
 import { IoMdSettings, IoMdWater } from "react-icons/io";
-import { FaCrown, FaRegSmile, FaAppStoreIos, FaGlobe } from "react-icons/fa";
+import { FaCrown, FaRegSmile, FaAppStoreIos, FaGlobe, FaStar   } from "react-icons/fa";
+import { RiAdvertisementFill } from "react-icons/ri";
 import SettingsPath from "../components/SettingsPath";
 import SettingsDescib from "../components/SettingsDescib";
 import RadioSwitch from "../components/RadioSwitch";
@@ -55,9 +56,7 @@ function Settings() {
             </div>
           }
         />
-        <SettingsDescib
-        value="Setting"
-        />
+        <SettingsDescib value="Setting" />
 
         <SettingsPath
           value="Workout Settings"
@@ -85,13 +84,51 @@ function Settings() {
         />
         <SettingsPath
           value="Apple Health"
-          button ={<RadioSwitch/>}
+          button={<RadioSwitch />}
           icon={
             <div className=" p-2 text-[30px] rounded-xl">
               <FaAppStoreIos />
             </div>
           }
         />
+        <SettingsDescib 
+        value="Support Us"
+         />  
+
+        <SettingsPath 
+          value="More Apps"
+          icon={
+            <div className="bg-yellow-600 p-2 text-[30px] rounded-xl">
+              <IoGridSharp  />
+            </div>
+          }
+        />
+        <SettingsPath 
+          value="Remove Ads"
+          icon={
+            <div className="bg-yellow-600 p-2 text-[30px] rounded-xl">
+              <RiAdvertisementFill  />
+            </div>
+          }
+        />
+        <SettingsPath 
+          value="Rate us"
+          icon={
+            <div className="bg-yellow-600 p-2 text-[30px] rounded-xl">
+              <FaStar   />
+            </div>
+          }
+        />
+        <SettingsPath 
+          value="Feedback"
+          icon={
+            <div className="bg-yellow-600 p-2 text-[30px] rounded-xl">
+              <IoPencilSharp    />
+            </div>
+          }
+        />
+
+        <p className="mt-5 italic text-lg font-semibold">Version 1.16.7</p>
       </div>
     </>
   );
