@@ -8,6 +8,7 @@ import { SlCalender } from "react-icons/sl";
 import Marquee from "../components/Marquee";
 import Button from "../components/Button";
 import LevelsCard from "../components/LevelsCard";
+import LevelsCards from "../data/LevelsCards"
 
 function Homepage() {
   const [streak, setStreak] = useState(0);
@@ -43,6 +44,8 @@ function Homepage() {
 
     calculateStreak();
   }, []);
+
+ 
 
   return (
     <>
@@ -124,7 +127,14 @@ function Homepage() {
       <div className="capitalize font-bold text-2xl font-serif tracking-wide mt-8">
         <h2>Classic workouts</h2>
       </div>
-      <LevelsCard/>
+      {LevelsCards.map(level => (
+    <LevelsCard
+      key={level.id}
+      name={level.name}
+      bg={level.bg_img}
+      image={level.img}
+    />
+  ))}
       </div>
     </>
   );
