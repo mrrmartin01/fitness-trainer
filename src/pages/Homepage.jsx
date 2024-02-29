@@ -3,8 +3,11 @@ import Card from "../components/Card";
 import Rows from "../components/Rows";
 import "./home.css";
 import { FaFireFlameCurved } from "react-icons/fa6";
+import { BsFillGrid1X2Fill } from "react-icons/bs";
 import { SlCalender } from "react-icons/sl";
 import Marquee from "../components/Marquee";
+import Button from "../components/Button";
+import LevelsCard from "../components/LevelsCard";
 
 function Homepage() {
   const [streak, setStreak] = useState(0);
@@ -43,6 +46,7 @@ function Homepage() {
 
   return (
     <>
+    <div className=" overflow-x-hidden">
       <div className="cardy">
         <Card>
           <div className="flex flex-row justify-between p-4">
@@ -107,6 +111,21 @@ function Homepage() {
       </div>
 
       <Marquee />
+      <Button
+      value="Explore all plan(11)"
+      icon={
+        <div className="text-gray-500 p-2 text-[20px]">
+          <BsFillGrid1X2Fill   />
+        </div>
+        }
+      className={`bg-gray-700 text-white capitalize w-[40%] h-12 rounded-full p-2 m-auto mt-8 flex items-center justify-center`}
+      />
+
+      <div className="capitalize font-bold text-2xl font-serif tracking-wide mt-8">
+        <h2>Classic workouts</h2>
+      </div>
+      <LevelsCard/>
+      </div>
     </>
   );
 }
