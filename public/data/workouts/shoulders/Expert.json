@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Handstand Push-Up",
+        "type": "strength",
+        "muscle": "shoulders",
+        "equipment": "body_only",
+        "difficulty": "expert",
+        "instructions": "Start in a handstand position against a wall, with your hands shoulder-width apart and your body in a straight line from head to heels. Lower yourself down by bending your elbows, keeping them close to your body. Lower until your head touches the ground, then push yourself back up to the starting position. Keep your core engaged and your body straight throughout the movement."
+    },
+    {
+        "name": "Barbell Overhead Press",
+        "type": "strength",
+        "muscle": "shoulders",
+        "equipment": "barbell",
+        "difficulty": "expert",
+        "instructions": "Stand with your feet shoulder-width apart and hold a barbell at shoulder height with an overhand grip, hands slightly wider than shoulder-width apart. Brace your core and press the barbell overhead until your arms are fully extended. Lower the barbell back down to shoulder height and repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Dumbbell Shoulder Press",
+        "type": "strength",
+        "muscle": "shoulders",
+        "equipment": "dumbbell",
+        "difficulty": "expert",
+        "instructions": "Sit on a bench with a back support and hold a dumbbell in each hand at shoulder height, palms facing forward. Brace your core and press the dumbbells overhead until your arms are fully extended. Lower the dumbbells back down to shoulder height and repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Arnold Press",
+        "type": "strength",
+        "muscle": "shoulders",
+        "equipment": "dumbbell",
+        "difficulty": "expert",
+        "instructions": "Sit on a bench with a back support and hold a dumbbell in each hand at shoulder height, palms facing towards you. Brace your core and press the dumbbells overhead while simultaneously rotating your palms to face away from you. At the top of the movement, your arms should be fully extended with your palms facing away from you. Reverse the movement to return to the starting position and repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Lateral Raise",
+        "type": "strength",
+        "muscle": "shoulders",
+        "equipment": "dumbbell",
+        "difficulty": "expert",
+        "instructions": "Stand with your feet shoulder-width apart and hold a dumbbell in each hand at your sides, palms facing inward. Brace your core and raise the dumbbells out to the sides until they are parallel to the ground. Keep a slight bend in your elbows throughout the movement. Lower the dumbbells back down to your sides and repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Front Raise",
+        "type": "strength",
+        "muscle": "shoulders",
+        "equipment": "dumbbell",
+        "difficulty": "expert",
+        "instructions": "Stand with your feet shoulder-width apart and hold a dumbbell in each hand at your sides, palms facing backward. Brace your core and raise the dumbbells in front of you until they are parallel to the ground. Keep a slight bend in your elbows throughout the movement. Lower the dumbbells back down to your sides and repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Reverse Fly",
+        "type": "strength",
+        "muscle": "shoulders",
+        "equipment": "dumbbell",
+        "difficulty": "expert",
+        "instructions": "Stand with your feet shoulder-width apart and hold a dumbbell in each hand in front of your thighs, palms facing inward. Brace your core and hinge forward at the hips until your torso is parallel to the ground. Keeping a slight bend in your elbows, raise the dumbbells out to the sides until your arms are parallel to the ground. Squeeze your shoulder blades together at the top of the movement, then lower the dumbbells back down to the starting position and repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Upright Row",
+        "type": "strength",
+        "muscle": "shoulders",
+        "equipment": "barbell",
+        "difficulty": "expert",
+        "instructions": "Stand with your feet shoulder-width apart and hold a barbell with an overhand grip, hands slightly narrower than shoulder-width apart. Brace your core and pull the barbell up towards your chin, leading with your elbows. Keep the barbell close to your body throughout the movement. Lower the barbell back down to the starting position and repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Face Pull",
+        "type": "strength",
+        "muscle": "shoulders",
+        "equipment": "cable",
+        "difficulty": "expert",
+        "instructions": "Attach a rope handle to a cable machine at chest height. Stand facing the cable machine with your feet shoulder-width apart and hold one end of the rope in each hand, palms facing inward. Brace your core and pull the rope towards your face, leading with your elbows. Keep your upper arms parallel to the ground throughout the movement. Squeeze your shoulder blades together at the end of the movement, then slowly release and return to the starting position. Repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Handstand Shoulder Taps",
+        "type": "strength",
+        "muscle": "shoulders",
+        "equipment": "body_only",
+        "difficulty": "expert",
+        "instructions": "Start in a handstand position against a wall, with your hands shoulder-width apart and your body in a straight line from head to heels. Brace your core and lift one hand off the ground, tapping the opposite shoulder with it. Return the hand to the ground and repeat on the other side. Continue alternating sides for the desired number of repetitions."
+    }
+]

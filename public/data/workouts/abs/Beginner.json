@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Dumbbell spell caster",
+        "type": "strength",
+        "muscle": "abdominals",
+        "equipment": "dumbbell",
+        "difficulty": "beginner",
+        "instructions": "Hold a dumbbell in each hand with a pronated grip. Your feet should be wide with your hips and knees extended. This will be your starting position. Begin the movement by pulling both of the dumbbells to one side next to your hip, rotating your torso. Keeping your arms straight and the dumbbells parallel to the ground, rotate your torso to swing the weights to your opposite side. Continue alternating, rotating from one side to the other until the set is complete."
+    },
+    {
+        "name": "Plate Twist",
+        "type": "strength",
+        "muscle": "abdominals",
+        "equipment": "other",
+        "difficulty": "beginner",
+        "instructions": "Lie down on the floor or an exercise mat with your legs fully extended and your upper body upright. Grab the plate by its sides with both hands out in front of your abdominals with your arms slightly bent. Slowly cross your legs near your ankles and lift them up off the ground. Your knees should also be bent slightly. Note: Move your upper body back slightly to help keep you balanced turning this exercise. This is the starting position. Move the plate to the left side and touch the floor with it. Breathe out as you perform that movement. Come back to the starting position as you breathe in and then repeat the movement but this time to the right side of the body. Tip: Use a slow controlled movement at all times. Jerking motions can injure the back. Repeat for the recommended amount of repetitions."
+    },
+    {
+        "name": "Gorilla Chin/Crunch",
+        "type": "strength",
+        "muscle": "abdominals",
+        "equipment": "body_only",
+        "difficulty": "beginner",
+        "instructions": "Hang from a chin-up bar using an underhand grip (palms facing you) that is slightly wider than shoulder width. Now bend your knees at a 90 degree angle so that the calves are parallel to the floor while the thighs remain perpendicular to it. This will be your starting position. As you exhale, pull yourself up while crunching your knees up at the same time until your knees are at chest level. You will stop going up as soon as your nose is at the same level as the bar. Tip: When you get to this point you should also be finishing the crunch at the same time. Slowly start to inhale as you return to the starting position. Repeat for the recommended amount of repetitions.  Variations: You can also add resistance by holding a dumbbell or medicine ball between your feet but this should only be done by the most advanced athletes. Alternatively, when you are very advanced you can also try the one-arm version where you grasp your wrist with your free hand and you work the obliques more."
+    },
+    {
+        "name": "Crunch - Hands Overhead",
+        "type": "strength",
+        "muscle": "abdominals",
+        "equipment": "body_only",
+        "difficulty": "beginner",
+        "instructions": "Lie on the floor with your back flat and knees bent with around a 60-degree angle between the hamstrings and the calves. Keep your feet flat on the floor and stretch your arms overhead with your palms crossed. This will be your starting position. Curl your upper body forward and bring your shoulder blades just off the floor. At all times, keep your arms aligned with your head, neck and shoulder. Don't move them forward from that position. Exhale as you perform this portion of the movement and hold the contraction for a second. Slowly lower down to the starting position as you inhale. Repeat for the recommended amount of repetitions.  Variations: For the most advanced lifters, a weighted plate can be held in your hands."
+    },
+    {
+        "name": "Bosu Ball Cable Crunch With Side Bends",
+        "type": "strength",
+        "muscle": "abdominals",
+        "equipment": "cable",
+        "difficulty": "beginner",
+        "instructions": "Connect a standard handle to each arm of a cable machine, and position them in the most downward position. Grab a Bosu Ball and position it in front and center of the cable machine. Lie down on the Bosu Ball with the small of your back arched around the ball. Your rear end should be close to the floor without touching it. With both hands, reach back and grab the handle of each cable. With your feet positioned in a wide stance, extend your arms straight out in front of you and in between your knees. Your hands should be at knee level. Keep your arms straight and in-line with the upward angle of the cable. Elevate your torso in a crunching motion without dropping or bending your arms. Maintain the rigid position with your arms. Slowly descend back to the starting position with your back arched around the Bosu Ball and your abdominals elongated. Repeat the same series of movements to failure. Once you reach failure, keep your abs tight and raise your torso into plank position so your back is elevated off the Bosu Ball. Lower your arms down to your side; keep them straight. Start doing alternating side bends; reach for your heels! This finishing movement will focus on your obliques.  Tip: Arch your back around the Bosu Ball before each rep to fully elongate your abdominals. This will provide a full range of motion and lengthen your muscle fibers, giving them a much fuller appearance."
+    },
+    {
+        "name": "Stomach Vacuum",
+        "type": "stretching",
+        "muscle": "abdominals",
+        "equipment": "body_only",
+        "difficulty": "beginner",
+        "instructions": "To begin, stand straight with your feet shoulder width apart from each other. Place your hands on your hips. This is the starting position. Now slowly inhale as much air as possible and then start to exhale as much as possible while bringing your stomach in as much as possible and hold this position. Try to visualize your navel touching your backbone. One isometric contraction is around 20 seconds. During the 20 second hold, try to breathe normally. Then inhale and bring your stomach back to the starting position. Once you have practiced this exercise, try to perform this exercise for longer than 20 seconds. Tip: You can work your way up to 40-60 seconds. Repeat for the recommended amount of sets."
+    },
+    {
+        "name": "Butt-Ups",
+        "type": "strength",
+        "muscle": "abdominals",
+        "equipment": "body_only",
+        "difficulty": "beginner",
+        "instructions": "Begin a pushup position but with your elbows on the ground and resting on your forearms. Your arms should be bent at a 90 degree angle. Arch your back slightly out rather than keeping your back completely straight. Raise your glutes toward the ceiling, squeezing your abs tightly to close the distance between your ribcage and hips. The end result will be that youâ€™ll end up in a high bridge position. Exhale as you perform this portion of the movement. Lower back down slowly to your starting position as you breathe in. Tip: Don't let your back sag downwards. Repeat for the recommended amount of repetitions.  Variations: None"
+    },
+    {
+        "name": "Bench barbell roll-out",
+        "type": "strength",
+        "muscle": "abdominals",
+        "equipment": "barbell",
+        "difficulty": "beginner",
+        "instructions": "Place a loaded barbell on the ground, near the end of a bench. Kneel with both legs on the bench, and take a medium to narrow grip on the barbell. This will be your starting position. To begin, extend through the hips to slowly roll the bar forward. As you roll out, flex the shoulder to roll the bar above your head. Ensure that your arms remain extended throughout the movement. When the bar has been moved as far forward as possible, return to the starting position."
+    },
+    {
+        "name": "Advanced Kettlebell Windmill",
+        "type": "strength",
+        "muscle": "abdominals",
+        "equipment": "kettlebells",
+        "difficulty": "beginner",
+        "instructions": "Clean and press a kettlebell overhead with one arm. Keeping the kettlebell locked out at all times, push your butt out in the direction of the locked out kettlebell. Keep the non-working arm behind your back and turn your feet out at a forty-five degree angle from the arm with the kettlebell. Lower yourself as far as possible. Pause for a second and reverse the motion back to the starting position."
+    },
+    {
+        "name": "Cable reverse crunch",
+        "type": "strength",
+        "muscle": "abdominals",
+        "equipment": "cable",
+        "difficulty": "beginner",
+        "instructions": "Connect an ankle strap attachment to a low pulley cable and position a mat on the floor in front of it. Sit down with your feet toward the pulley and attach the cable to your ankles. Lie down, elevate your legs and bend your knees at a 90-degree angle. Your legs and the cable should be aligned. If not, adjust the pulley up or down until they are. With your hands behind your head, bring your knees inward to your torso and elevate your hips off the floor. Pause for a moment and in a slow and controlled manner drop your hips and bring your legs back to the starting 90-degree angle. You should still have tension on your abs in the resting position. Repeat the same movement to failure.  Tip: Donâ€™t put pressure against your neck when your hands are behind your head. This position is only to keep your upper back slightly elevated so your upper abs engage. If you tweak your neck, then reposition your arms at your side."
+    }
+]

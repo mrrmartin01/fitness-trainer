@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Dragon Flag",
+        "type": "strength",
+        "muscle": "abdominals",
+        "equipment": "body_only",
+        "difficulty": "expert",
+        "instructions": "Lie on your back on a flat bench, gripping the sides of the bench next to your head with both hands. Raise your legs and upper body off the bench by contracting your abs and lifting your hips towards the ceiling. Keep your body in a straight line from head to toe. Slowly lower your body back down, keeping control of the movement. Lower your body until your legs are just above the bench, then reverse the movement and raise your body back up. Repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Hanging Leg Raise to Lever",
+        "type": "strength",
+        "muscle": "abdominals",
+        "equipment": "pull-up_bar",
+        "difficulty": "expert",
+        "instructions": "Hang from a pull-up bar with an overhand grip, hands shoulder-width apart. Engage your core and raise your legs up in front of you until they are parallel to the floor. Once your legs are parallel, engage your lats and pull your body up until you are in a lever position, with your body horizontal to the ground. Hold this position briefly, then slowly lower your body back down to the starting position. Repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Ab Wheel Rollout",
+        "type": "strength",
+        "muscle": "abdominals",
+        "equipment": "ab_wheel",
+        "difficulty": "expert",
+        "instructions": "Kneel on the floor and hold an ab wheel with both hands, shoulder-width apart. Roll the wheel forward, extending your arms and torso as far as you can without touching the floor with your body. Keep your abs engaged and your back straight. Pause for a moment, then reverse the movement and roll the wheel back towards your knees. Keep your movements slow and controlled throughout the exercise. Repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Dragon Flag Progression",
+        "type": "strength",
+        "muscle": "abdominals",
+        "equipment": "body_only",
+        "difficulty": "expert",
+        "instructions": "Lie on your back on a flat bench, gripping the sides of the bench next to your head with both hands. Raise your legs and upper body off the bench by contracting your abs and lifting your hips towards the ceiling. Keep your body in a straight line from head to toe. Slowly lower your body back down, keeping control of the movement. Lower your body until your legs are just above the bench, then reverse the movement and raise your body back up. Repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Human Flag",
+        "type": "strength",
+        "muscle": "abdominals",
+        "equipment": "body_only",
+        "difficulty": "expert",
+        "instructions": "Start by gripping a vertical pole or similar structure with one hand above your head and the other hand by your side. Engage your core and lift your legs off the ground, keeping your body in a straight line. Hold this position for as long as possible, then lower yourself back down. Repeat on the other side."
+    },
+    {
+        "name": "Plank with Alternating Arm and Leg Lift",
+        "type": "strength",
+        "muscle": "abdominals",
+        "equipment": "body_only",
+        "difficulty": "expert",
+        "instructions": "Start in a plank position, with your forearms on the ground and your body in a straight line from head to heels. Engage your core and lift your right arm and left leg off the ground, extending them out in front of you and behind you respectively. Hold for a moment, then lower them back down and repeat on the other side. Continue alternating sides for the desired number of repetitions."
+    },
+    {
+        "name": "Front Lever",
+        "type": "strength",
+        "muscle": "abdominals",
+        "equipment": "pull-up_bar",
+        "difficulty": "expert",
+        "instructions": "Start by hanging from a pull-up bar with an overhand grip, hands shoulder-width apart. Engage your core and lift your legs up in front of you, keeping them straight. Lean back and extend your arms until your body is parallel to the ground. Hold this position for as long as possible, then lower yourself back down. Repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Planche",
+        "type": "strength",
+        "muscle": "abdominals",
+        "equipment": "body_only",
+        "difficulty": "expert",
+        "instructions": "Start in a push-up position, with your hands shoulder-width apart and your body in a straight line from head to heels. Engage your core and lean forward, shifting your weight onto your hands until your feet come off the ground. Hold this position for as long as possible, then lower yourself back down. Repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Windshield Wipers",
+        "type": "strength",
+        "muscle": "abdominals",
+        "equipment": "body_only",
+        "difficulty": "expert",
+        "instructions": "Lie on your back with your arms extended out to the sides and your palms facing down. Lift your legs up until they are perpendicular to the ground. Keeping your legs straight, lower them to one side until they are a few inches off the ground. Engage your core and lift your legs back up to the starting position, then lower them to the other side. Continue alternating sides for the desired number of repetitions."
+    }
+]
