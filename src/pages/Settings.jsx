@@ -98,7 +98,7 @@ function Settings() {
         <SettingsPath 
           value="More Apps"
           icon={
-            <div className="bg-yellow-600 p-2 text-[30px] rounded-xl">
+            <div className="bg-gray-400 p-2 text-[30px] rounded-xl">
               <IoGridSharp  />
             </div>
           }
@@ -106,7 +106,7 @@ function Settings() {
         <SettingsPath 
           value="Remove Ads"
           icon={
-            <div className="bg-yellow-600 p-2 text-[30px] rounded-xl">
+            <div className="bg-gray-400 p-2 text-[30px] rounded-xl">
               <RiAdvertisementFill  />
             </div>
           }
@@ -114,7 +114,7 @@ function Settings() {
         <SettingsPath 
           value="Rate us"
           icon={
-            <div className="bg-yellow-600 p-2 text-[30px] rounded-xl">
+            <div className="bg-gray-400 p-2 text-[30px] rounded-xl">
               <FaStar   />
             </div>
           }
@@ -122,7 +122,7 @@ function Settings() {
         <SettingsPath 
           value="Feedback"
           icon={
-            <div className="bg-yellow-600 p-2 text-[30px] rounded-xl">
+            <div className="bg-gray-400 p-2 text-[30px] rounded-xl">
               <IoPencilSharp    />
             </div>
           }
