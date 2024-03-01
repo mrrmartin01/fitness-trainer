@@ -1,7 +1,7 @@
 
 function ClassicWorkouts() {
   return (
-    <div>
+    <div> 
       
     </div>
   )
