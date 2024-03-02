@@ -2,9 +2,9 @@
 function ClassicWorkouts() {
   return (
     <div> 
-      
+      ****
     </div>
   )
 }
 
-export default ClassicWorkouts
+export default ClassicWorkouts;
