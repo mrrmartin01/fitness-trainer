@@ -1,7 +1,8 @@
 import { useState } from "react";
 import NavData from "../data/NavListData";
 import { Link } from "react-router-dom";
-import ProfilePic from "./ProfilePic";  
+import ProfilePic from "./ProfilePic";
+import { SiOpenaigym } from "react-icons/si";
 
 function NavList() {
   const [navItems, setNavItems] = useState(NavData);
@@ -16,6 +17,12 @@ function NavList() {
   return (
     <>
       <ProfilePic />
+      <div className="flex  justify-center text-center tracking-wider mt-[-20px] font-bold">
+        <span className=" text-sky-500">MiTrainer</span>
+        <span className="pl-2  text-3xl">
+          <SiOpenaigym />
+        </span>
+      </div>
       {navItems.map((item) => (
         <li key={item._id} className="">
           <Link
