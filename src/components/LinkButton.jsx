@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 function LinkButton({ value, isSelected, onClick }) {
   return (
     <button
-      className={`text-xl font-semibold font-mono rounded-lg  p-2 w-[150px] button capitalize ${
+      className={`text-xl hover:border-2 font-semibold font-mono rounded-lg  p-2 w-[150px] button capitalize ${
         isSelected ? "bg-black text-white" : ""
       }`}
       onClick={onClick}

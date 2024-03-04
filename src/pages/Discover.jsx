@@ -1,9 +1,10 @@
 import { useState } from "react";
 import DiscoverPage1 from "../components/DiscoverPage1";
 import LinkButton from "../components/LinkButton";
+import { FaClock, FaSearch } from "react-icons/fa";
 
 function Discover() {
-  const [selectedButton, setSelectedButton] = useState(null);
+  const [selectedButton, setSelectedButton] = useState("At home");
 
   const handleButtonClick = (buttonId) => {
     setSelectedButton(buttonId);
@@ -12,9 +13,21 @@ function Discover() {
   return (
     <>
       <div className="static">
-        <span className="uppercase text-4xl font-semibold font-serif italic">
-          Discover
-        </span>
+        <div className="flex justify-between">
+          <div className="">
+            <span className="uppercase text-4xl font-semibold font-serif italic">
+              Discover
+            </span>
+          </div>
+          <div className="flex text-4xl gap-5 mx-2 text-blue-500">
+            <button>
+              <FaSearch className="" />
+            </button>
+            <button>
+              <FaClock className="" />
+            </button>
+          </div>
+        </div>
 
         <div className="flex flex-row gap-5 m-2 rounded-lg">
           <LinkButton
