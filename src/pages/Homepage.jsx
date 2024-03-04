@@ -47,6 +47,12 @@ function Homepage() {
     calculateStreak();
   }, []);
 
+  // let [color, setColor] = useState('#000');
+
+  // const colorChange = () => {
+  //   setColor( color=>'#fff');
+  // };
+
   return (
     <>
       <div className=" overflow-x-hidden">
@@ -106,10 +112,10 @@ function Homepage() {
             </div>
           </Card>
         </div>
-        <div className="flex flex-row justify-start gap-4 mt-4 text-2xl text-gray-500 font-bold">
+        <button className="flex flex-row cursor-pointer justify-start gap-4 mt-4 text-2xl text-gray-500 font-bold" >
           <p>Recent</p>
           <p>My Plan</p>
-        </div>
+        </button>
 
         <Marquee />
         <Button
