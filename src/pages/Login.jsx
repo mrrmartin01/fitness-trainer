@@ -34,7 +34,7 @@ function Login() {
       username === mockData[0].username &&
       Password === mockData[0].Password
     ) {
-      navigate("/Home");
+      navigate("/app");
     }
   };
 
