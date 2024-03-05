@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Barbell Deadlift",
+        "type": "strength",
+        "muscle": "hamstrings",
+        "equipment": "barbell",
+        "difficulty": "intermediate",
+        "instructions": "Approach the bar so that it is centered over your feet. Your feet should be about hip-width apart. Bend at the hip to grip the bar at shoulder-width allowing your shoulder blades to protract. Typically, you would use an alternating grip. With your feet and your grip set, take a big breath and then lower your hips and flex the knees until your shins contact the bar. Look forward with your head. Keep your chest up and your back arched, and begin driving through the heels to move the weight upward. After the bar passes the knees aggressively pull the bar back, pulling your shoulder blades together as you drive your hips forward into the bar. Lower the bar by bending at the hips and guiding it to the floor."
+    },
+    {
+        "name": "Stiff-Legged Dumbbell Deadlift",
+        "type": "strength",
+        "muscle": "hamstrings",
+        "equipment": "dumbbell",
+        "difficulty": "intermediate",
+        "instructions": "Grasp a couple of dumbbells holding them by your side at arm's length. Stand with your torso straight and your legs spaced using a shoulder width or narrower stance. The knees should be slightly bent. This is your starting position. Keeping the knees stationary, lower the dumbbells to over the top of your feet by bending at the waist while keeping your back straight. Keep moving forward as if you were going to pick something from the floor until you feel a stretch on the hamstrings. Exhale as you perform this movement Start bringing your torso up straight again by extending your hips and waist until you are back at the starting position. Inhale as you perform this movement. Repeat for the recommended amount of repetitions.  Caution: This is not an exercise that is recommended for people with lower back problems. Also, it needs to be treated with the utmost respect paying special attention not to round the back forward as you move the torso down; the back should always be straight. Finally, jerking motions or doing too much weight can injure your back. Variations: The exercise can also be performed with a barbell also."
+    },
+    {
+        "name": "Exercise ball leg curl",
+        "type": "strength",
+        "muscle": "hamstrings",
+        "equipment": "exercise_ball",
+        "difficulty": "intermediate",
+        "instructions": "Begin on the floor laying on your back with your feet on top of the ball. Position the ball so that when your legs are extended your ankles are on top of the ball. This will be your starting position. Raise your hips off of the ground, keeping your weight on the shoulder blades and your feet. Flex the knees, pulling the ball as close to you as you can, contracting the hamstrings. After a brief pause, return to the starting position."
+    },
+    {
+        "name": "Kettlebell pass-through lunge",
+        "type": "strength",
+        "muscle": "hamstrings",
+        "equipment": "kettlebells",
+        "difficulty": "intermediate",
+        "instructions": "Stand with your torso upright holding a kettlebell in your right hand. This will be your starting position. Step forward with your left foot and lower your upper body down by flexing the hip and the knee, keeping the torso upright. Lower your back knee until it nearly touches the ground. As you lunge, pass the kettlebell under your front leg to your opposite hand. Pressing through the heel of your foot, return to the starting position. Repeat the movement for the recommended amount of repetitions, alternating legs."
+    },
+    {
+        "name": "Power clean",
+        "type": "strength",
+        "muscle": "hamstrings",
+        "equipment": "barbell",
+        "difficulty": "intermediate",
+        "instructions": "Note: This exercise is extremely complex and requires the execution of many phases. Phase 1: Starting Position  Stand with your feet slightly wider than shoulder width apart and toes pointing out slightly. Squat down and grasp bar with a closed, pronated grip. Your hands should be slightly wider than shoulder width apart outside knees with elbows fully extended. Place the bar about 1 inch in front of your shins and over the balls of your feet. Your back should be flat or slightly arched, your chest held up and out and your shoulder blades should be retracted. Keep your head in a neutral position (in line with vertebral column and not tilted or rotated) with your eyes focused straight ahead. Inhale during this phase.  Phase 2: First Pull Phase  Lift the bar from the floor by forcefully extending the hips and the knees as you exhale. Tip: The upper torso should maintain the same angle. Do not bend at the waist yet and do not let the hips rise before the shoulders (this would have the effect of pushing the glutes in the air and stretching the hamstrings. Keep elbows fully extended with the head in a neutral position and the shoulders over the bar. As the bar raises keep it as close to the shins as possible.  Phase 3: Transition or Scoop Phase  As the bar passes the knees, thrust your hips forward and slightly bend the knees to avoid locking them. Tip: At this point your thighs should be against the bar. Keep the back flat or slightly arched, elbows fully extended and your head neutral. Tip: You will hold your breath until the next phase.  Phase 4: Second Pull Phase  Inhale and then forcefully and quickly extend your hips and knees and stand on your toes. Keep the bar as close to your body as possible. Tip: Your back should be flat with the elbows pointed out to the sides and your head in a neutral position. Also, keep your shoulders over the bar and arms straight as long as possible. When your lower body joints are fully extended, shrug the shoulders upward rapidly without letting the elbows flex yet. Exhale during this portion of the movement. As the shoulders reach their highest elevation flex your elbows to begin pulling your body under the bar. Continue to pull the arms as high and as long as possible. Tip: Due to the explosive nature of this phase, your torso will be erect or with an arched back, your head will be tilted back slightly and your feet may lose contact with the floor.  Phase 5: Catch Phase  After the lower body has fully extended and the bar reaches near maximal height, pull your body under the bar and rotate the arms around and under the bar. Simultaneously, flex the hips and knees into a quarter squat position. Once the arms are under the bar, inhale and then lift your elbows to position the upper arms parallel to the floor. Rack the bar across the front of your collar bones and front shoulder muscles. Catch the bar with an erect and tight torso, a neutral head position and flat feet. Exhale during this movement. Stand up by extending the hips and knees to a fully erect position.  Phase 6: Downward Movement Phase  Lower the bar by gradually reducing the muscular tension of the arms to allow a controlled descent of the bar to the thighs. Inhale during this movement. Simultaneously flex the hips and knees to cushion the impact of the bar on the thighs. Squat down with the elbows fully extended until the bar touches the floor. Start over at Phase 1 and repeat for the recommended amount of repetitions."
+    },
+    {
+        "name": "Kettlebell pass-through lunge",
+        "type": "strength",
+        "muscle": "hamstrings",
+        "equipment": "kettlebells",
+        "difficulty": "intermediate",
+        "instructions": "Stand with your torso upright holding a kettlebell in your right hand. This will be your starting position. Step forward with your left foot and lower your upper body down by flexing the hip and the knee, keeping the torso upright. Lower your back knee until it nearly touches the ground. As you lunge, pass the kettlebell under your front leg to your opposite hand. Pressing through the heel of your foot, return to the starting position. Repeat the movement for the recommended amount of repetitions, alternating legs."
+    },
+    {
+        "name": "Power clean",
+        "type": "strength",
+        "muscle": "hamstrings",
+        "equipment": "barbell",
+        "difficulty": "intermediate",
+        "instructions": "Note: This exercise is extremely complex and requires the execution of many phases. Phase 1: Starting Position  Stand with your feet slightly wider than shoulder width apart and toes pointing out slightly. Squat down and grasp bar with a closed, pronated grip. Your hands should be slightly wider than shoulder width apart outside knees with elbows fully extended. Place the bar about 1 inch in front of your shins and over the balls of your feet. Your back should be flat or slightly arched, your chest held up and out and your shoulder blades should be retracted. Keep your head in a neutral position (in line with vertebral column and not tilted or rotated) with your eyes focused straight ahead. Inhale during this phase.  Phase 2: First Pull Phase  Lift the bar from the floor by forcefully extending the hips and the knees as you exhale. Tip: The upper torso should maintain the same angle. Do not bend at the waist yet and do not let the hips rise before the shoulders (this would have the effect of pushing the glutes in the air and stretching the hamstrings. Keep elbows fully extended with the head in a neutral position and the shoulders over the bar. As the bar raises keep it as close to the shins as possible.  Phase 3: Transition or Scoop Phase  As the bar passes the knees, thrust your hips forward and slightly bend the knees to avoid locking them. Tip: At this point your thighs should be against the bar. Keep the back flat or slightly arched, elbows fully extended and your head neutral. Tip: You will hold your breath until the next phase.  Phase 4: Second Pull Phase  Inhale and then forcefully and quickly extend your hips and knees and stand on your toes. Keep the bar as close to your body as possible. Tip: Your back should be flat with the elbows pointed out to the sides and your head in a neutral position. Also, keep your shoulders over the bar and arms straight as long as possible. When your lower body joints are fully extended, shrug the shoulders upward rapidly without letting the elbows flex yet. Exhale during this portion of the movement. As the shoulders reach their highest elevation flex your elbows to begin pulling your body under the bar. Continue to pull the arms as high and as long as possible. Tip: Due to the explosive nature of this phase, your torso will be erect or with an arched back, your head will be tilted back slightly and your feet may lose contact with the floor.  Phase 5: Catch Phase  After the lower body has fully extended and the bar reaches near maximal height, pull your body under the bar and rotate the arms around and under the bar. Simultaneously, flex the hips and knees into a quarter squat position. Once the arms are under the bar, inhale and then lift your elbows to position the upper arms parallel to the floor. Rack the bar across the front of your collar bones and front shoulder muscles. Catch the bar with an erect and tight torso, a neutral head position and flat feet. Exhale during this movement. Stand up by extending the hips and knees to a fully erect position.  Phase 6: Downward Movement Phase  Lower the bar by gradually reducing the muscular tension of the arms to allow a controlled descent of the bar to the thighs. Inhale during this movement. Simultaneously flex the hips and knees to cushion the impact of the bar on the thighs. Squat down with the elbows fully extended until the bar touches the floor. Start over at Phase 1 and repeat for the recommended amount of repetitions."
+    },
+    {
+        "name": "Kettlebell One-Legged Deadlift",
+        "type": "strength",
+        "muscle": "hamstrings",
+        "equipment": "kettlebells",
+        "difficulty": "intermediate",
+        "instructions": "Hold a kettlebell by the handle in one hand. Stand on one leg, on the same side that you hold the kettlebell. Keeping that knee slightly bent, perform a stiff legged deadlift by bending at the hip, extending your free leg behind you for balance. Continue lowering the kettlebell until you are parallel to the ground, and then return to the upright position."
+    },
+    {
+        "name": "Good Morning",
+        "type": "powerlifting",
+        "muscle": "hamstrings",
+        "equipment": "barbell",
+        "difficulty": "intermediate",
+        "instructions": "Begin with a bar on a rack at shoulder height. Rack the bar across the rear of your shoulders as you would a power squat, not on top of your shoulders. Keep your back tight, shoulder blades pinched together, and your knees slightly bent. Step back from the rack. Begin by bending at the hips, moving them back as you bend over to near parallel. Keep your back arched and your cervical spine in proper alignment. Reverse the motion by extending through the hips with your glutes and hamstrings. Continue until you have returned to the starting position."
+    },
+    {
+        "name": "Glute Ham Raise",
+        "type": "powerlifting",
+        "muscle": "hamstrings",
+        "equipment": "machine",
+        "difficulty": "intermediate",
+        "instructions": "Begin by adjusting the equipment to fit your body. Place your feet against the footplate in between the rollers as you lie facedown. Your knees should be just behind the pad. Start from the bottom of the movement. Keep your back arched as you begin the movement by flexing the knees. Drive your toes into the foot plate as you do so. Keep your upper body straight, and continue until your body is upright. Return to the starting position, keeping your descent under control."
+    }
+]

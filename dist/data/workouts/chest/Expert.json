@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Weighted Dips",
+        "type": "strength",
+        "muscle": "chest",
+        "equipment": "dip_bar",
+        "difficulty": "expert",
+        "instructions": "Start by gripping the dip bars and jumping or stepping up so that your arms are fully extended and your body is lifted off the ground. Lower yourself down by bending your elbows until your upper arms are parallel to the ground. Keep your torso upright and your elbows close to your body. Press yourself back up to the starting position by straightening your arms. Repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Ring Push-Ups",
+        "type": "strength",
+        "muscle": "chest",
+        "equipment": "suspension_trainer",
+        "difficulty": "expert",
+        "instructions": "Start by setting up the rings at a height just above the ground. Grip the rings and extend your body so that you are in a push-up position with your arms straight and your body in a straight line from head to heels. Lower yourself down by bending your elbows until your chest nearly touches the rings. Press yourself back up to the starting position by straightening your arms. Repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Incline Dumbbell Press",
+        "type": "strength",
+        "muscle": "chest",
+        "equipment": "dumbbell, bench",
+        "difficulty": "expert",
+        "instructions": "Start by sitting on an incline bench with a dumbbell in each hand, resting on your thighs. Lie back on the bench and bring the dumbbells up to your shoulders, palms facing forward. Press the dumbbells up over your chest until your arms are fully extended. Lower the dumbbells back down to the starting position. Repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Cable Crossover",
+        "type": "strength",
+        "muscle": "chest",
+        "equipment": "cable",
+        "difficulty": "expert",
+        "instructions": "Start by setting the cable machine to shoulder height on each side. Stand in the middle of the machine and grab the handles with your palms facing down. Step forward slightly and lean forward at the waist, keeping your back straight. With a slight bend in your elbows, bring your arms together in front of you, crossing them over your chest. Pause for a moment, then reverse the movement and return to the starting position. Repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Single-Arm Dumbbell Bench Press",
+        "type": "strength",
+        "muscle": "chest",
+        "equipment": "dumbbell, bench",
+        "difficulty": "expert",
+        "instructions": "Start by lying on a flat bench with a dumbbell in one hand, resting on your chest. Extend your arm straight up over your chest, palm facing forward. Lower the dumbbell down towards your chest, keeping your elbow close to your body. Press the dumbbell back up to the starting position. Repeat for the desired number of repetitions, then switch arms and repeat."
+    },
+    {
+        "name": "Decline Barbell Bench Press",
+        "type": "strength",
+        "muscle": "chest",
+        "equipment": "barbell, bench",
+        "difficulty": "expert",
+        "instructions": "Start by lying on a decline bench with a barbell racked above your chest. Grip the barbell with your hands slightly wider than shoulder-width apart, palms facing forward. Unrack the barbell and lower it down towards your chest, keeping your elbows close to your body. Press the barbell back up to the starting position. Repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Chest Dips",
+        "type": "strength",
+        "muscle": "chest",
+        "equipment": "dip_bar",
+        "difficulty": "expert",
+        "instructions": "Start by gripping the dip bars and jumping or stepping up so that your arms are fully extended and your body is lifted off the ground. Lean forward slightly and lower yourself down by bending your elbows until your upper arms are parallel to the ground. Keep your torso upright and your elbows close to your body. Press yourself back up to the starting position by straightening your arms. Repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Pec Deck Machine",
+        "type": "strength",
+        "muscle": "chest",
+        "equipment": "pec_deck",
+        "difficulty": "expert",
+        "instructions": "Start by adjusting the seat height and the handles on the pec deck machine so that your arms are at shoulder height when you grip the handles. Sit down on the machine and grip the handles with your palms facing each other. Press the handles together in front of you, keeping your elbows slightly bent. Slowly release the handles and return to the starting position. Repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Ring Flyes",
+        "type": "strength",
+        "muscle": "chest",
+        "equipment": "suspension_trainer",
+        "difficulty": "expert",
+        "instructions": "Start by setting up the rings at a height just above the ground. Grip the rings and extend your body so that you are in a push-up position with your arms straight and your body in a straight line from head to heels. Keep your elbows slightly bent and slowly lower yourself down by spreading your arms out to the sides until your chest nearly touches the rings. Press yourself back up to the starting position by bringing your arms back together. Repeat for the desired number of repetitions."
+    }
+]

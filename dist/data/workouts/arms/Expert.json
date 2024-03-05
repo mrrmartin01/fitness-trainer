@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Close-Grip Bench Press",
+        "type": "strength",
+        "muscle": "arms",
+        "equipment": "barbell",
+        "difficulty": "expert",
+        "instructions": "Lie flat on a bench with a barbell racked above your chest. Grip the bar with your hands close together, just slightly wider than shoulder-width apart. Unrack the bar and lower it to your chest, keeping your elbows close to your body. Press the bar back up to the starting position, fully extending your arms. Repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Skull Crushers",
+        "type": "strength",
+        "muscle": "arms",
+        "equipment": "barbell",
+        "difficulty": "expert",
+        "instructions": "Lie flat on a bench with a barbell racked above your chest. Grip the bar with an overhand grip, hands shoulder-width apart. Lower the bar towards your forehead, keeping your elbows stationary and your upper arms perpendicular to the floor. Extend your arms to lift the bar back up to the starting position. Repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Standing Barbell Curl",
+        "type": "strength",
+        "muscle": "arms",
+        "equipment": "barbell",
+        "difficulty": "expert",
+        "instructions": "Stand with your feet shoulder-width apart, holding a barbell with an underhand grip, hands shoulder-width apart. Keep your elbows close to your body and curl the bar up towards your shoulders, squeezing your biceps at the top of the movement. Lower the bar back down to the starting position. Repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Tricep Dips",
+        "type": "strength",
+        "muscle": "arms",
+        "equipment": "parallel_bars",
+        "difficulty": "expert",
+        "instructions": "Stand between two parallel bars and grip them with your hands, palms facing inward. Lift yourself up so your arms are fully extended and your feet are off the ground. Lower your body by bending your elbows until your upper arms are parallel to the ground. Push yourself back up to the starting position. Repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Hammer Curls",
+        "type": "strength",
+        "muscle": "arms",
+        "equipment": "dumbbell",
+        "difficulty": "expert",
+        "instructions": "Stand with your feet shoulder-width apart, holding a dumbbell in each hand at your sides, palms facing inwards. Keep your elbows close to your body and curl the dumbbells up towards your shoulders, keeping your palms facing inwards throughout the movement. Lower the dumbbells back down to the starting position. Repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Overhead Tricep Extension",
+        "type": "strength",
+        "muscle": "arms",
+        "equipment": "dumbbell",
+        "difficulty": "expert",
+        "instructions": "Stand with your feet shoulder-width apart, holding a dumbbell in both hands above your head, arms fully extended. Lower the dumbbell behind your head by bending your elbows, keeping your upper arms close to your head. Extend your arms to lift the dumbbell back up to the starting position. Repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Preacher Curls",
+        "type": "strength",
+        "muscle": "arms",
+        "equipment": "barbell",
+        "difficulty": "expert",
+        "instructions": "Sit on a preacher bench and grip a barbell with an underhand grip, hands shoulder-width apart. Rest your upper arms on the preacher pad and fully extend your arms. Curl the barbell up towards your shoulders, squeezing your biceps at the top of the movement. Lower the barbell back down to the starting position. Repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Concentration Curls",
+        "type": "strength",
+        "muscle": "arms",
+        "equipment": "dumbbell",
+        "difficulty": "expert",
+        "instructions": "Sit on a bench with your legs spread apart and hold a dumbbell in one hand between your legs. Rest your elbow on the inside of your thigh and fully extend your arm. Curl the dumbbell up towards your shoulder, squeezing your bicep at the top of the movement. Lower the dumbbell back down to the starting position. Repeat for the desired number of repetitions, then switch sides."
+    },
+    {
+        "name": "Reverse Grip Bent-Over Rows",
+        "type": "strength",
+        "muscle": "arms",
+        "equipment": "barbell",
+        "difficulty": "expert",
+        "instructions": "Stand with your feet shoulder-width apart, holding a barbell with an overhand grip, hands shoulder-width apart. Bend your knees slightly and hinge forward at the hips, keeping your back straight and your chest lifted. Row the barbell up towards your lower chest, keeping your elbows close to your body and squeezing your shoulder blades together at the top of the movement. Lower the barbell back down to the starting position. Repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Barbell Wrist Curls",
+        "type": "strength",
+        "muscle": "arms",
+        "equipment": "barbell",
+        "difficulty": "expert",
+        "instructions": "Sit on a bench with your forearms resting on your thighs and hold a barbell with an underhand grip, hands shoulder-width apart. Allow the barbell to roll down to your fingertips, then curl it back up towards your wrists by flexing your wrists. Lower the barbell back down to the starting position. Repeat for the desired number of repetitions."
+    }
+]

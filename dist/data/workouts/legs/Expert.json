@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Nordic Hamstring Curl",
+        "type": "strength",
+        "muscle": "hamstrings",
+        "equipment": "body_only",
+        "difficulty": "expert",
+        "instructions": "Start by kneeling on a soft surface, with your feet anchored under a sturdy object or held by a partner. Engage your core and slowly lower your upper body towards the ground, keeping your back straight. Lower yourself as far as you can, then use your hamstrings to pull yourself back up to the starting position. Keep your movements slow and controlled throughout the exercise. Repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Single-Leg Romanian Deadlift",
+        "type": "strength",
+        "muscle": "hamstrings",
+        "equipment": "dumbbell",
+        "difficulty": "expert",
+        "instructions": "Stand with your feet hip-width apart, holding a dumbbell in each hand at your sides. Shift your weight onto one leg and hinge at the hips, extending the opposite leg straight behind you. Lower the dumbbells towards the ground, keeping your back straight and your chest lifted. Lower the dumbbells as far as you can while maintaining balance, then use your hamstrings to pull yourself back up to the starting position. Repeat for the desired number of repetitions, then switch legs."
+    },
+    {
+        "name": "Good Morning",
+        "type": "strength",
+        "muscle": "hamstrings",
+        "equipment": "barbell",
+        "difficulty": "expert",
+        "instructions": "Start by standing with your feet shoulder-width apart, holding a barbell across your upper back. Engage your core and hinge at the hips, lowering your torso towards the ground while keeping your back straight. Lower yourself as far as you can while maintaining control, then use your hamstrings to pull yourself back up to the starting position. Repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Glute-Ham Raise",
+        "type": "strength",
+        "muscle": "hamstrings",
+        "equipment": "glute_ham_raise_machine",
+        "difficulty": "expert",
+        "instructions": "Start by adjusting the glute-ham raise machine so that your knees are on the pad and your ankles are secured under the footplate. Engage your core and slowly lower your upper body towards the ground, keeping your back straight. Lower yourself as far as you can, then use your hamstrings to pull yourself back up to the starting position. Keep your movements slow and controlled throughout the exercise. Repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Single-Leg Box Step-Up",
+        "type": "strength",
+        "muscle": "hamstrings",
+        "equipment": "box",
+        "difficulty": "expert",
+        "instructions": "Start by standing in front of a sturdy box or bench, holding a dumbbell in each hand at your sides. Shift your weight onto one leg and step onto the box with that leg. Push through your heel to lift your body up onto the box, straightening your leg at the top of the movement. Lower yourself back down to the starting position, keeping control of the movement. Repeat for the desired number of repetitions, then switch legs."
+    },
+    {
+        "name": "Romanian Deadlift",
+        "type": "strength",
+        "muscle": "hamstrings",
+        "equipment": "barbell",
+        "difficulty": "expert",
+        "instructions": "Start by standing with your feet hip-width apart, holding a barbell in front of your thighs with an overhand grip. Engage your core and hinge at the hips, lowering the barbell towards the ground while keeping your back straight. Lower the barbell as far as you can while maintaining control, then use your hamstrings to pull yourself back up to the starting position. Repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Kettlebell Swing",
+        "type": "strength",
+        "muscle": "hamstrings",
+        "equipment": "kettlebell",
+        "difficulty": "expert",
+        "instructions": "Start by standing with your feet shoulder-width apart, holding a kettlebell with both hands in front of your body. Engage your core and hinge at the hips, lowering the kettlebell towards the ground while keeping your back straight. Swing the kettlebell back between your legs, then use your hamstrings to propel it forward and up to shoulder height. Swing the kettlebell back down between your legs, keeping control of the movement. Repeat for the desired number of repetitions."
+    },
+    {
+        "name": "Single-Leg Deadlift",
+        "type": "strength",
+        "muscle": "hamstrings",
+        "equipment": "dumbbell",
+        "difficulty": "expert",
+        "instructions": "Start by standing with your feet hip-width apart, holding a dumbbell in each hand at your sides. Shift your weight onto one leg and hinge at the hips, extending the opposite leg straight behind you. Lower the dumbbells towards the ground, keeping your back straight and your chest lifted. Lower the dumbbells as far as you can while maintaining balance, then use your hamstrings to pull yourself back up to the starting position. Repeat for the desired number of repetitions, then switch legs."
+    },
+    {
+        "name": "Swiss Ball Hamstring Curl",
+        "type": "strength",
+        "muscle": "hamstrings",
+        "equipment": "swiss_ball",
+        "difficulty": "expert",
+        "instructions": "Start by lying on your back on the ground with your feet on top of a Swiss ball. Engage your core and lift your hips off the ground, creating a straight line from your shoulders to your heels. Roll the Swiss ball towards your body by bending your knees, using your hamstrings to pull it in. Keep your hips lifted and your core engaged throughout the movement. Roll the Swiss ball back out to the starting position, maintaining control of the movement. Repeat for the desired number of repetitions."
+    }
+]
