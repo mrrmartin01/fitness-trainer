@@ -47,12 +47,6 @@ function Homepage() {
     calculateStreak();
   }, []);
 
-  // let [color, setColor] = useState('#000');
-
-  // const colorChange = () => {
-  //   setColor( color=>'#fff');
-  // };
-
   return (
     <>
       <div className=" overflow-x-hidden">
@@ -63,7 +57,7 @@ function Homepage() {
                 <Rows
                   value={
                     <>
-                      <h1>{streak}</h1>
+                      <h1>{streak }</h1>
                       <p>Day streak</p>
                       <p className="text-gray-700">
                         Personal best:{streak}
@@ -92,8 +86,8 @@ function Homepage() {
                 <Rows
                   value={
                     <>
-                      <h1>0/3</h1>
-                      <p>This week</p>
+                      <h1>{Math.floor(streak / 4)}/4</h1>
+                      <p>This Month</p>
                       <p className="text-gray-700">
                         <span className="lowercase ">in</span> Total:
                         {Math.ceil(streak / 7)}
