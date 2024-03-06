@@ -1,4 +1,5 @@
 import Describe from "../data/Describer";
+import BeginnerAbs from "./BeginnerAbs";
 import DescribCards from "./DescribCards";
 import SettingsDescib from "./SettingsDescib";
 
@@ -20,6 +21,8 @@ function DiscoverPage1() {
           ))}
         </div>
       </div>
+
+      <BeginnerAbs/>
     </>
   );
 }

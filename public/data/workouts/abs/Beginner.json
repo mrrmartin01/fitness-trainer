@@ -1,7 +1,8 @@
 [
     {
         "id": 1,
-        "image": "",
+        "image": "https://www.mybodycreator.com/content/files/2023/05/26/62_M.png",
+        "video": "https://youtu.be/FhnP5YkYkf4?si=1jo_eYmSU8YY1QdB",
         "name": "Dumbbell spell caster",
         "type": "strength",
         "muscle": "abdominals",
@@ -11,7 +12,8 @@
     },
     {
         "id": 2,
-        "image": "",
+        "image": "https://i.pinimg.com/736x/d1/a0/19/d1a0195309cdb616d532ae79f04e367f.jpg",
+        "video":"https://youtu.be/pz1H4uhLMJ0?si=nbRqmb3UKih3Funn",
         "name": "Plate Twist",
         "type": "strength",
         "muscle": "abdominals",
@@ -21,7 +23,8 @@
     },
     {
         "id": 3,
-        "image": "",
+        "image": "https://homegymreview.co.uk/wp-content/uploads/exercises/04671101-Gorilla-Chin_waist_max-scaled.jpg",
+        "video": "https://youtu.be/ioA1YaLl_yE?si=76NzcAmxE6AnCy5I",
         "name": "Gorilla Chin/Crunch",
         "type": "strength",
         "muscle": "abdominals",
@@ -31,7 +34,8 @@
     },
     {
         "id": 4,
-        "image": "",
+        "image": "https://fitnessvolt.com/wp-content/uploads/2020/11/crunch-hands-overhead-765x387.jpg",
+        "video": "https://youtu.be/bXzT0s42UJE?si=jpV0tVuncrT7KhsW",
         "name": "Crunch - Hands Overhead",
         "type": "strength",
         "muscle": "abdominals",
@@ -41,7 +45,8 @@
     },
     {
         "id": 5,
-        "image": "",
+        "image": "https://gymvisual.com/3156-thickbox_default/cable-side-bend-crunch-bosu-ball.jpg",
+        "video": "https://youtu.be/4mIbpBoWuWo?si=w1_0GLrzgjuCRv-e",
         "name": "Bosu Ball Cable Crunch With Side Bends",
         "type": "strength",
         "muscle": "abdominals",
@@ -51,7 +56,8 @@
     },
     {
         "id": 6,
-        "image": "",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs2bLD5qHaEvCAJ41UL0f5r7jaeG_IAdf4AA&usqp=CAU",
+        "video": "https://youtu.be/vPQNERJUBlk?si=hNe-rf918etR9a8G",
         "name": "Stomach Vacuum",
         "type": "stretching",
         "muscle": "abdominals",
@@ -61,7 +67,8 @@
     },
     {
         "id": 7,
-        "image": "",
+        "image": "https://fitnessvolt.com/wp-content/uploads/2021/09/Butt-Ups-Exercise.jpg",
+        "video": "https://youtu.be/fKbwSN6hwxw?si=owfL6gdCOpRyvFcA",
         "name": "Butt-Ups",
         "type": "strength",
         "muscle": "abdominals",
@@ -71,7 +78,8 @@
     },
     {
         "id": 8,
-        "image": "",
+        "image": "https://focusedonfit.com/s/uploads/2014/01/Barbell-Rollout.jpg",
+        "video": "https://youtu.be/rI6VMheAQpE?si=KMpZDfKiT0A2ZXxo",
         "name": "Bench barbell roll-out",
         "type": "strength",
         "muscle": "abdominals",
@@ -80,6 +88,9 @@
         "instructions": "Place a loaded barbell on the ground, near the end of a bench. Kneel with both legs on the bench, and take a medium to narrow grip on the barbell. This will be your starting position. To begin, extend through the hips to slowly roll the bar forward. As you roll out, flex the shoulder to roll the bar above your head. Ensure that your arms remain extended throughout the movement. When the bar has been moved as far forward as possible, return to the starting position."
     },
     {
+        "id": 9,
+        "image": "https://s3.amazonaws.com/prod.skimble/assets/1335728/image_iphone.jpg",
+        "video": "https://youtu.be/H8fmeaq8ewI?si=w9yHSSfX4iFdqmQB",
         "name": "Advanced Kettlebell Windmill",
         "type": "strength",
         "muscle": "abdominals",
@@ -88,6 +99,9 @@
         "instructions": "Clean and press a kettlebell overhead with one arm. Keeping the kettlebell locked out at all times, push your butt out in the direction of the locked out kettlebell. Keep the non-working arm behind your back and turn your feet out at a forty-five degree angle from the arm with the kettlebell. Lower yourself as far as possible. Pause for a second and reverse the motion back to the starting position."
     },
     {
+        "id": 10,
+        "image": "https://fitliferegime.com/wp-content/uploads/2022/03/Cable-Reverse-Crunch-1024x576.webp",
+        "video": "https://youtu.be/Ss3G7RnIjV4?si=yhTfdQQfaasWYmPc",
         "name": "Cable reverse crunch",
         "type": "strength",
         "muscle": "abdominals",
