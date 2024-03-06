@@ -29,7 +29,7 @@ function Discover() {
           </div>
         </div>
 
-        <div className="flex flex-row gap-5 m-2 rounded-lg">
+        <div className="flex flex-row gap-5 m-2 rounded-lg w-full h-[50px]">
           <LinkButton
             value="At home"
             isSelected={selectedButton === "At home"}

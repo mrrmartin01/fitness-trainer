@@ -6,7 +6,6 @@ import { FaFireFlameCurved } from "react-icons/fa6";
 import { BsFillGrid1X2Fill } from "react-icons/bs";
 import { FaArrowCircleRight } from "react-icons/fa";
 import { SlCalender, SlNote } from "react-icons/sl";
-import { GiSharpedTeethSkull  } from "react-icons/gi";
 import Marquee from "../components/Marquee";
 import Button from "../components/Button";
 import LevelsCard from "../components/LevelsCard";
@@ -49,7 +48,7 @@ function Homepage() {
 
   return (
     <>
-      <div className=" overflow-x-hidden">
+      <div className="overflow-hidden">
         <div className="cardy">
           <Card>
             <div className="flex flex-row justify-between p-4">
@@ -57,7 +56,7 @@ function Homepage() {
                 <Rows
                   value={
                     <>
-                      <h1>{streak }</h1>
+                      <h1>{streak}</h1>
                       <p>Day streak</p>
                       <p className="text-gray-700">
                         Personal best:{streak}
@@ -106,7 +105,7 @@ function Homepage() {
             </div>
           </Card>
         </div>
-        <button className="flex flex-row cursor-pointer justify-start gap-4 mt-4 text-2xl text-gray-500 font-bold" >
+        <button className="flex flex-row cursor-pointer justify-start gap-4 mt-4 text-2xl text-gray-500 font-bold">
           <p>Recent</p>
           <p>My Plan</p>
         </button>
@@ -133,7 +132,7 @@ function Homepage() {
             {/* Map workouts */}
             <div className="flex flex-wrap justify-center ">
               {level.workouts.map((workout) => (
-                <div
+                <div 
                   key={workout.id}
                   className="w-full h-[150px] border-b-2 hover:text-4xl"
                 >
@@ -161,37 +160,31 @@ function Homepage() {
             </div>
           </div>
         ))}
+
+        <hr className="mt-5" />
+
+        <div className="flex justify-center items-center gap-2 mt-8 ">
+          <Button
+            value="Adjust the order"
+            icon={
+              <div className="text-blue-500 p-2 text-[20px]">
+                <SlNote />
+              </div>
+            }
+            className={`bg-gray-700 hover:bg-yellow-400 transition duration-[0.3s] ease-linear text-blue-500 text-xl hover:text-2xl font-bold w-full h-[55px] rounded-lg p-2 flex items-center justify-center`}
+          />
+
+          <Button
+            value="Discover * More workouts"
+            icon={
+              <div className="text-blue-500 p-2 text-[20px]">
+                <SlNote />
+              </div>
+            }
+            className={`bg-gray-700 hover:bg-green-200 transition duration-[0.3s] ease-linear text-blue-500 text-xl hover:text-2xl font-bold w-full h-[55px] rounded-lg p-2 flex items-center justify-center`}
+          />
+        </div>
       </div>
-
-      <hr className="mt-5" />
-
-      <div className="flex justify-center items-center gap-2 mt-8 ">
-        <Button
-          value="Adjust the order"
-          icon={
-            <div className="text-blue-500 p-2 text-[20px]">
-              <SlNote />
-            </div>
-          }
-          className={`bg-gray-700 hover:bg-yellow-400 transition duration-[0.3s] ease-linear text-blue-500 text-xl hover:text-2xl font-bold w-full h-[55px] rounded-lg p-2 flex items-center justify-center`}
-        />
-
-        <Button
-          value="Discover * More workouts"
-          icon={
-            <div className="text-blue-500 p-2 text-[20px]">
-              <SlNote />
-            </div>
-          }
-          className={`bg-gray-700 hover:bg-green-200 transition duration-[0.3s] ease-linear text-blue-500 text-xl hover:text-2xl font-bold w-full h-[55px] rounded-lg p-2 flex items-center justify-center`}
-        />
-      </div>
-
-      <div className="flex flex-row justify-end text-2xl p-2 mt-5">
-        <span className="font-bold italic pr-3">Site By: The_Mis.Fit</span>
-        <span className="pl-2 text-5xl bg-gradient-to-t rounded-lg from-yellow-400 via-red-500 to-pink-500 text-blend"><GiSharpedTeethSkull  /></span>
-      </div>
-      
     </>
   );
 }
