@@ -4,11 +4,11 @@ function Modal({video, muscle,instructions, button}) {
    return(
      <>
           <div className="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center text-black justify-center">
-            <div className="bg-white  h-fit rounded-lg w-[80%]">
+            <div className="bg-blue-500  h-fit rounded-lg w-[80%]">
               <div className="w-full bg-red-500 h-2/5">
                 {video}
               </div>
-              <p className="p-2 mt-12 uppercase">{muscle}</p>
+              <p className="p-2 mt-2 text-xl text-shadow-lg  font-bold uppercase">{muscle}</p>
               <h2 className="text-md p-2 font-semibold  font-mono tracking-tight">
                 {instructions}
               </h2>
