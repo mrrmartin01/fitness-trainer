@@ -1,5 +1,5 @@
 import Describe from "../data/Describer";
-import BeginnerAbs from "./BeginnerAbs";
+import BeginnerAbs from "./workouts/BeginnerAbs";
 import DescribCards from "./DescribCards";
 import SettingsDescib from "./SettingsDescib";
 
