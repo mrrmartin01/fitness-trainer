@@ -14,7 +14,7 @@ function DiscoverPage1() {
           {Describe.map((workoutCards) => (
             <DescribCards
               key={workoutCards.id}
-              image={workoutCards.img}
+              image={workoutCards.image}
               type={workoutCards.type}
               duration={workoutCards.duration}
             />

@@ -1,6 +1,6 @@
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 
-function IntermediateAbs(props) {
+function IntermediateAbs() {
   return (
     <div>
       
@@ -12,5 +12,4 @@ IntermediateAbs.propTypes = {
 
 }
 
-export default IntermediateAbs
-
+export default IntermediateAbs;

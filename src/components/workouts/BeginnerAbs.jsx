@@ -69,7 +69,7 @@ function BeginnerAbs() {
               button={
                 <button
                   onClick={() => setShowModal(false)}
-                  className="px-4 ml-2 mb-2  bg-red-500 text-white rounded-md hover:bg-red-600 transition duration-300"
+                  className="ml-[30%] mb-4 w-[300px] h-[35px] font-bold hover:border-b-2 hover:border-r-2 bg-gray-800 text-white rounded-md hover:bg-gray-900 italic transition duration-300"
                 >
                   Close
                 </button>
