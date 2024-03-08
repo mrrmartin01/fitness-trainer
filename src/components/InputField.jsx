@@ -4,7 +4,7 @@ import './inputfield.css';
 function InputField({ placeholder, type, className, label,onChange, autoComplete }) {
   return (
     <>
-      <label className="mt-5 label-style">{label}</label>
+      <label className="mt-1 label-style">{label}</label>
       <input type={type} className={className} placeholder={placeholder} onChange={onChange} autoComplete={autoComplete} />
     </>
   );

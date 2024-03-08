@@ -40,16 +40,16 @@ function Login() {
 
   return (
     <>
-      <div className="flex justify-center items-center flex-col mt-4 w-[fit-content] p-2 mx-auto">
+      <div className="flex justify-center items-center flex-col w-[fit-content] mx-auto">
         <ProfilePic />
-        <p className="text-xl font-bold text-gray-700 uppercase">Sign in</p>
+        <p className="text-lg font-bold text-gray-700 uppercase">Sign in</p>
         <form className="flex justify-start items-start flex-col">
           <InputField
             label="Username"
             value={username}
             onChange={(e) => setUserName(e.target.value)}
             placeholder="Enter your username"
-            className="w-[400px] h-12 rounded-lg p-2 bg-white border-2 border-gray-300 user-input"
+            className="w-[400px] h-10 rounded-lg p-2 bg-white border-2 border-gray-300 user-input"
             type="text"
           />
 
@@ -59,7 +59,7 @@ function Login() {
             autoComplete = "current-password"
             onChange={(e) => setPassword(e.target.value)}
             placeholder="Enter password"
-            className="w-[400px] h-12 rounded-lg p-2 bg-white border-2 border-gray-300 user-input"
+            className="w-[400px] h-10 rounded-lg p-2 bg-white border-2 border-gray-300 user-input"
             type="password"
           />
           <Button
@@ -86,7 +86,7 @@ function Login() {
           }
           value="Signin with Facebook"
           type="button"
-          className="w-full h-12 rounded-lg p-2 bg-[#1454dd] hover:bg-[#1838c9] text-white text-[20px] font-serif mt-4 flex flex-row  justify-center"
+          className="w-full h-12 rounded-lg p-2 bg-[#1454dd] hover:bg-[#1838c9] text-white text-[20px] font-serif mt-2 flex flex-row  justify-center"
         />
         <Button
           icon={
@@ -96,7 +96,7 @@ function Login() {
           }
           value="Signin with Google"
           type="button"
-          className="w-full h-12 rounded-lg p-2 bg-blue-400 hover:bg-blue-500 text-white text-[20px] font-serif mt-4 flex flex-row  justify-center"
+          className="w-full h-12 rounded-lg p-2 bg-blue-400 hover:bg-blue-500 text-white text-[20px] font-serif mt-2 flex flex-row  justify-center"
         />
         <Button
           icon={
@@ -106,10 +106,10 @@ function Login() {
           }
           value="Signin with Apple"
           type="button"
-          className="w-full h-12 rounded-lg p-2 bg-[#08090aea] hover:bg-[#020617] text-white text-[20px] font-serif mt-4 flex flex-row  justify-center"
+          className="w-full h-12 rounded-lg p-2 bg-[#08090aea] hover:bg-[#020617] text-white text-[20px] font-serif mt-2 flex flex-row  justify-center"
         />
 
-        <a href="/signup" className="mt-4 text-md">
+        <a href="/signup" className="mt-2 text-md">
           Don&apos;t have an account? Signup for free{" "}
         </a>
       </div>
