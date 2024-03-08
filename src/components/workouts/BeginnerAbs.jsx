@@ -63,7 +63,7 @@ function BeginnerAbs() {
         {showModal && (
           <>
             <Modal
-              video={<iframe className = "w-full h-[400px] border-2 " src={modalContent.video}/>}
+              video={<iframe className = "w-full h-[300px]" src={modalContent.video}/>}
               muscle={modalContent.muscle}
               instructions={modalContent.instructions}
               button={
