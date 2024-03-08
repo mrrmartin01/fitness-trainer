@@ -24,7 +24,7 @@
     {
         "id": 3,
         "image": "https://homegymreview.co.uk/wp-content/uploads/exercises/04671101-Gorilla-Chin_waist_max-scaled.jpg",
-        "video": "https://youtu.be/ioA1YaLl_yE?si=76NzcAmxE6AnCy5I",
+        "video": "https://www.youtube.com/embed/ioA1YaLl_yE?si=76NzcAmxE6AnCy5I",
         "name": "Gorilla Chin/Crunch",
         "type": "strength",
         "muscle": "abdominals",
@@ -35,7 +35,7 @@
     {
         "id": 4,
         "image": "https://fitnessvolt.com/wp-content/uploads/2020/11/crunch-hands-overhead-765x387.jpg",
-        "video": "https://youtu.be/bXzT0s42UJE?si=jpV0tVuncrT7KhsW",
+        "video": "https://www.youtube.com/embed/bXzT0s42UJE?si=jpV0tVuncrT7KhsW",
         "name": "Crunch - Hands Overhead",
         "type": "strength",
         "muscle": "abdominals",
@@ -46,18 +46,18 @@
     {
         "id": 5,
         "image": "https://gymvisual.com/3156-thickbox_default/cable-side-bend-crunch-bosu-ball.jpg",
-        "video": "https://youtu.be/4mIbpBoWuWo?si=w1_0GLrzgjuCRv-e",
+        "video": "https://www.youtube.com/embed/4mIbpBoWuWo?si=w1_0GLrzgjuCRv-e",
         "name": "Bosu Ball Cable Crunch With Side Bends",
         "type": "strength",
         "muscle": "abdominals",
         "equipment": "cable",
         "difficulty": "beginner",
-        "instructions": "Connect a standard handle to each arm of a cable machine, and position them in the most downward position. Grab a Bosu Ball and position it in front and center of the cable machine. Lie down on the Bosu Ball with the small of your back arched around the ball. Your rear end should be close to the floor without touching it. With both hands, reach back and grab the handle of each cable. With your feet positioned in a wide stance, extend your arms straight out in front of you and in between your knees. Your hands should be at knee level. Keep your arms straight and in-line with the upward angle of the cable. Elevate your torso in a crunching motion without dropping or bending your arms. Maintain the rigid position with your arms. Slowly descend back to the starting position with your back arched around the Bosu Ball and your abdominals elongated. Repeat the same series of movements to failure. Once you reach failure, keep your abs tight and raise your torso into plank position so your back is elevated off the Bosu Ball. Lower your arms down to your side; keep them straight. Start doing alternating side bends; reach for your heels! This finishing movement will focus on your obliques.  Tip: Arch your back around the Bosu Ball before each rep to fully elongate your abdominals. This will provide a full range of motion and lengthen your muscle fibers, giving them a much fuller appearance."
+        "instructions": "This core workout utilizes a cable machine and a Bosu Ball. Start by attaching handles to the cable machine's arms and positioning them low. Lie on the Bosu Ball with your lower back arched around it, grabbing the cable handles with straight arms extended in front at knee level. Crunch upward without bending your arms, then return to the starting position. Repeat until fatigue, then transition to a plank position with your back elevated off the Bosu Ball. Finally, perform alternating side bends to target the obliques. Ensure to arch your back around the Bosu Ball before each rep for a full range of motion and muscle elongation."
     },
     {
         "id": 6,
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs2bLD5qHaEvCAJ41UL0f5r7jaeG_IAdf4AA&usqp=CAU",
-        "video": "https://youtu.be/vPQNERJUBlk?si=hNe-rf918etR9a8G",
+        "video": "https://www.youtube.com/embed/vPQNERJUBlk?si=hNe-rf918etR9a8G",
         "name": "Stomach Vacuum",
         "type": "stretching",
         "muscle": "abdominals",
@@ -68,7 +68,7 @@
     {
         "id": 7,
         "image": "https://fitnessvolt.com/wp-content/uploads/2021/09/Butt-Ups-Exercise.jpg",
-        "video": "https://youtu.be/fKbwSN6hwxw?si=owfL6gdCOpRyvFcA",
+        "video": "https://www.youtube.com/embed/fKbwSN6hwxw?si=owfL6gdCOpRyvFcA",
         "name": "Butt-Ups",
         "type": "strength",
         "muscle": "abdominals",
@@ -79,7 +79,7 @@
     {
         "id": 8,
         "image": "https://focusedonfit.com/s/uploads/2014/01/Barbell-Rollout.jpg",
-        "video": "https://youtu.be/rI6VMheAQpE?si=KMpZDfKiT0A2ZXxo",
+        "video": "https://www.youtube.com/embed/rI6VMheAQpE?si=KMpZDfKiT0A2ZXxo",
         "name": "Bench barbell roll-out",
         "type": "strength",
         "muscle": "abdominals",
@@ -90,7 +90,7 @@
     {
         "id": 9,
         "image": "https://s3.amazonaws.com/prod.skimble/assets/1335728/image_iphone.jpg",
-        "video": "https://youtu.be/H8fmeaq8ewI?si=w9yHSSfX4iFdqmQB",
+        "video": "https://www.youtube.com/embed/H8fmeaq8ewI?si=w9yHSSfX4iFdqmQB",
         "name": "Advanced Kettlebell Windmill",
         "type": "strength",
         "muscle": "abdominals",
@@ -101,7 +101,7 @@
     {
         "id": 10,
         "image": "https://fitliferegime.com/wp-content/uploads/2022/03/Cable-Reverse-Crunch-1024x576.webp",
-        "video": "https://youtu.be/Ss3G7RnIjV4?si=yhTfdQQfaasWYmPc",
+        "video": "https://www.youtube.com/embed/Ss3G7RnIjV4?si=yhTfdQQfaasWYmPc",
         "name": "Cable reverse crunch",
         "type": "strength",
         "muscle": "abdominals",
