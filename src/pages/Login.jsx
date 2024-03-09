@@ -17,7 +17,6 @@ function Login() {
 
   const navigate = useNavigate();
 
-  
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Username:", username);
@@ -25,11 +24,10 @@ function Login() {
 
     if (username === "" || Password === "") {
       setError("Please enter your username and password");
-    } else if (
-      username !== mockData[0].username ||
-      Password !== mockData[0].Password
-    ) {
-      setError("Wrong username or password");
+    } else if (username !== mockData[0].username) {
+      setError("Wrong username");
+    } else if (Password != mockData[0].Password) {
+      setError("Wrong password");
     } else if (
       username === mockData[0].username &&
       Password === mockData[0].Password
@@ -40,26 +38,24 @@ function Login() {
 
   return (
     <>
-      <div className="flex justify-center items-center flex-col w-[fit-content] mx-auto">
+      <div className="flex justify-center bg-purple-200 border-4 items-center px-10 flex-col w-[40%] mt-4 rounded-2xl mx-auto">
         <ProfilePic />
         <p className="text-lg font-bold text-gray-700 uppercase">Sign in</p>
-        <form className="flex justify-start items-start flex-col">
+        <form className="flex justify-start items-start w-full flex-col">
           <InputField
             label="Username"
             value={username}
             onChange={(e) => setUserName(e.target.value)}
-            placeholder="Enter your username"
-            className="w-[400px] h-10 rounded-lg p-2 bg-white border-2 border-gray-300 user-input"
+            className="w-full h-10 rounded-lg p-2 bg-white border-2 border-gray-300 user-input"
             type="text"
           />
 
           <InputField
             label="Password"
             value={Password}
-            autoComplete = "current-password"
+            autoComplete="current-password"
             onChange={(e) => setPassword(e.target.value)}
-            placeholder="Enter password"
-            className="w-[400px] h-10 rounded-lg p-2 bg-white border-2 border-gray-300 user-input"
+            className="w-full h-10 rounded-lg p-2 bg-white border-2 border-gray-300 user-input"
             type="password"
           />
           <Button
