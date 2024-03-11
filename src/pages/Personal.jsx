@@ -17,12 +17,12 @@ function Personal() {
       </div>
 
       <div className="mt-[5%]  flex flex-col items-center justify-center">
-        <div className="flex justify-between w-full h-[2px] mb-[1%]">
+        <div className="flex justify-between w-full h-[2px] mb-[2%]">
           <hr className="w-[30%] text-red-500" />
           <hr className="w-[30%] text-red-500" />
         </div>
 
-        <h3 className="text-2xl font-semibold italic tracking-[5px] mb-[1%]">
+        <h3 className="text-2xl font-semibold italic tracking-[5px] mb-[2%]">
           Just try a few days for free. The first week is on us
           <span className="transform-2">!</span>
         </h3>
@@ -31,13 +31,15 @@ function Personal() {
           <hr className="w-[35%] text-red-500" />
           <hr className="w-[35%] text-red-500" />
         </div>
-        <Button
-          value="UNLOCK"
-          className={
-            "w-[35%] text-2xl m-[7%] font-bold h-20 rounded-full p-2 bg-gradient-to-br from-blue-400 to-blue-700"
-          }
-          type={"submit"}
-        />
+        <div className="h-[144px] w-full flex justify-center">
+          <Button
+            value="UNLOCK"
+            className={
+              "w-[20%] text-2xl  mt-[5%] font-bold h-[50px] rounded-full bg-gradient-to-br from-blue-400 to-blue-700"
+            }
+            type={"submit"}
+          />
+        </div>
       </div>
     </>
   );

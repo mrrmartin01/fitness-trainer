@@ -1,9 +1,13 @@
+// To ensure that each LinkButton appends a particular component to the page when clicked, you can use conditional rendering based on the selectedButton state. Here's how you can modify your code to achieve this:
+
+// jsx
+// Copy code
 import { useState } from "react";
 import DiscoverPage1 from "../components/DiscoverPage1";
-import GymComponent from "../components/GymComponent";
-import WalkRunComponent from "../components/WalkRunComponent";
 import LinkButton from "../components/LinkButton";
 import { FaClock, FaSearch } from "react-icons/fa";
+import GymComponent from "../components/GymComponent";
+import WalkRunComponent from "../components/WalkRunComponent";
 
 function Discover() {
   const [selectedButton, setSelectedButton] = useState("At home");
@@ -15,15 +19,15 @@ function Discover() {
   const renderComponent = () => {
     switch (selectedButton) {
       case "At home":
-        return <DiscoverPage1/>;
+        return <DiscoverPage1 />;
       case "Gym":
-        return <GymComponent/>;
+        return <GymComponent />;
       case "Walk & run":
-        return <WalkRunComponent/>;
+        return <WalkRunComponent />;
       default:
-        return <DiscoverPage1/>;
+        return <DiscoverPage1 />;
     }
-  }
+  };
 
   return (
     <>
@@ -72,3 +76,8 @@ function Discover() {
 }
 
 export default Discover;
+// In this modified code:
+
+// I've added GymComponent and WalkRunComponent components, which will be rendered based on the selected button.
+// The renderComponent function determines which component to render based on the selectedButton state.
+// The renderComponent function is called within the JSX to render the appropriate component based on the selected button.

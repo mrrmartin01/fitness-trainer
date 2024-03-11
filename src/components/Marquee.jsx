@@ -16,13 +16,13 @@ function Marquee() {
           }
 
           ::-webkit-scrollbar-thumb {
-            background-color: rgba(0, 0, 0, 0.2); 
+            background-color: rgba(25, 25, 25, 0.7); 
             border-radius: 4px; 
           }
         `}
       </style>
       
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex space-x-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex space-x-8">
         {WorkoutsData.map((workouts) => (
           <Link
             key={workouts._id}
