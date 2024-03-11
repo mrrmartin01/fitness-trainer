@@ -2,7 +2,7 @@ const WorkoutsData = [
     {
         'id': 1,
         'type': "Abs-Beginner",
-        'url': '',
+        'url': BeginnerAbs,
         'intro': "For absolute beginners looking forward to training their abs",
         'detail': "",
         'img': "https://www.fitness-books.com/wp-content/uploads/2017/04/Mens-Ab-Workout-356x220.jpg",
@@ -146,4 +146,5 @@ const WorkoutsData = [
     },
 ]
 
+import BeginnerAbs from "../components/workouts/Abs/BeginnerAbs"
 export default WorkoutsData
