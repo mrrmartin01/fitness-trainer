@@ -1,30 +1,42 @@
-// import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Describe from "../data/Describer";
 import BeginnerAbs from "./workouts/Abs/BeginnerAbs";
 import DescribCards from "./DescribCards";
 import SettingsDescib from "./SettingsDescib";
 
 function DiscoverPage1() {
-  // const [holder ,setHolder] = useState()
+  const [holder, setHolder] = useState([]);
 
-  // useEffect(() => {
-  //   fetch("http://localhost")
-  //   .then((res) => {if(!res.ok){throw new Error("Your network is not responding");}
-  //   return res.json();
-  // })
-  // .then((res) => {setHolder(res);})
-  // .catch ((error) => {alert("Failed to connect", error)})
-  // })
+  useEffect(() => {
+    fetch("http://localhost")
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error("Your network is not responding");
+        }
+        return res.json();
+      })
+      .then((res) => {
+        setHolder(res);
+      })
+      .catch((error) => {
+        throw new Error( error);
+      });
+  }, []); // [] added as dependency array
+
   return (
     <>
       <div className="overflow-x-hidden">
         <SettingsDescib value="Body focus" />
-        <div className="flex gap-3 w-full  bg-red-500">
-        {/* {holder.map((card)) => (<div className=""></div>)} */}
+        <div className="flex gap-3 w-full bg-red-500">
+          {holder.map((card) => ( // Corrected parentheses here
+            <div key={card.id} className="">
+
+            </div>
+          ))}
         </div>
 
         <SettingsDescib value="Guess You might need" />
-        <div className="flex flex-wrap justify-center ">
+        <div className="flex flex-wrap justify-center">
           {Describe.map((workoutCards) => (
             <DescribCards
               key={workoutCards.id}
@@ -36,7 +48,7 @@ function DiscoverPage1() {
         </div>
       </div>
 
-      <BeginnerAbs/>
+      <BeginnerAbs />
     </>
   );
 }
