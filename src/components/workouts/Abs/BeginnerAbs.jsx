@@ -36,7 +36,7 @@ function BeginnerAbs() {
       <p className="uppercase">Beginner abs</p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-5">
         {loading ? (
-          <Loader /> // Show loader while data is being fetched
+          <Loader /> 
         ) : (
           abs.map((item) => (
             <div

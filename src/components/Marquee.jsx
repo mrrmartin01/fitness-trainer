@@ -10,7 +10,7 @@ function Marquee() {
       <style>
         {`
           ::-webkit-scrollbar {
-            width: 2px; 
+            width: 0px; 
             background-color: transparent;
             
           }
@@ -39,7 +39,9 @@ function Marquee() {
                 {workouts.type}
               </h2>
               <p className="text-sm text-gray-300 mt-2">{workouts.intro}</p>
-              <button className="w-full inline-block mt-4 px-4 py-2 bg-yellow-500 text-white font-semibold rounded-2xl hover:bg-sky-500 transition duration-[0.5s]">
+              <button 
+              onClick={()  => this.return(workouts.url)}
+              className="w-full inline-block mt-4 px-4 py-2 bg-yellow-500 text-white font-semibold rounded-2xl hover:bg-sky-500 transition duration-[0.5s]">
                 Get Started
               </button>
             </div>

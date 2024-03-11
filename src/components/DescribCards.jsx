@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types'
 
-function DescribCards({ id, image, type, duration }) {
+function DescribCards({ id, image, type, duration, onClick }) {
   return (
     <div key={id} className="w-full h-[150px] border-b-2 hover:text-4xl">
-      <div className="flex items-center justify-between h-full bg-gray-800 p-4 cursor-pointer">
+      <div className="flex items-center justify-between h-full bg-gray-800 p-4 cursor-pointer" onClick={onClick}>
         <div className="w-[20%] h-full">
           <img
             src={image}
@@ -26,6 +26,7 @@ DescribCards.propTypes ={
     image: PropTypes.string,
     type: PropTypes.string,
     duration: PropTypes.string,
+    onClick: PropTypes.func,
 }
 
 export default DescribCards;
