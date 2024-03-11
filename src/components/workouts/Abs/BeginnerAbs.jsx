@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Modal from "../../components/Modal";
+import Modal from "../../Modal";
 
 function BeginnerAbs() {
   const [abs, setAbs] = useState([]);
@@ -29,7 +29,7 @@ function BeginnerAbs() {
 
   return (
     <>
-      <p>ABS</p>
+      <p className="uppercase">Beginner abs</p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-5">
         {abs.map((item) => (
           <div

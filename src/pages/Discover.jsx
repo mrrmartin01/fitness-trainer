@@ -1,5 +1,7 @@
 import { useState } from "react";
 import DiscoverPage1 from "../components/DiscoverPage1";
+import GymComponent from "../components/GymComponent";
+import WalkRunComponent from "../components/WalkRunComponent";
 import LinkButton from "../components/LinkButton";
 import { FaClock, FaSearch } from "react-icons/fa";
 
@@ -9,6 +11,19 @@ function Discover() {
   const handleButtonClick = (buttonId) => {
     setSelectedButton(buttonId);
   };
+
+  const renderComponent = () => {
+    switch (selectedButton) {
+      case "At home":
+        return <DiscoverPage1/>;
+      case "Gym":
+        return <GymComponent/>;
+      case "Walk & run":
+        return <WalkRunComponent/>;
+      default:
+        return <DiscoverPage1/>;
+    }
+  }
 
   return (
     <>
@@ -51,7 +66,7 @@ function Discover() {
         <hr className="border-t-2 border-blue-200"></hr>
       </div>
 
-      <DiscoverPage1 />
+      {renderComponent()}
     </>
   );
 }
