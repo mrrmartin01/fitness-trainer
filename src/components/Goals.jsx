@@ -23,7 +23,9 @@ function Goals() {
       <div className="flex gap-1 bg-red-500">
         {GoalsData.map((level) => (
           <div key={level.id} className="">
-            <div className="">uererre</div>
+            <div className="flex justify-evenly">
+              <div className=""></div>
+            </div>
 
             {/* Map workouts */}
             <div className="flex flex-wrap justify-center ">

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Modal from "../../components/Modal";
+import Modal from "../../Modal";
 
 function BeginnerArms() {
   const [abs, setAbs] = useState([]);

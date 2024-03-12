@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Modal from "../../components/Modal";
+import Modal from "../../Modal";
 
 function IntermediateArms() {
   const [abs, setAbs] = useState([]);

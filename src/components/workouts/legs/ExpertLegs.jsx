@@ -1,13 +1,13 @@
 import { useState, useEffect } from "react";
 import Modal from "../../Modal";
 
-function ExpertBack() {
+function ExpertLegs() {
   const [abs, setAbs] = useState([]);
   const [showModal, setShowModal] = useState(false); // State variable to control modal visibility
   const [modalContent, setModalContent] = useState({}); // State variable to store modal content
 
   useEffect(() => {
-    fetch("http://localhost:5173/data/workouts/back/Expert.json")
+    fetch("http://localhost:5173/data/workouts/legs/Expert.json")
       .then((res) => {
         if (!res.ok) {
           throw new Error("Network response was not ok");
@@ -29,7 +29,7 @@ function ExpertBack() {
 
   return (
     <>
-      <p className="uppercase">Intermediate arms</p>
+      <p className="uppercase">Expert arms</p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-5">
         {abs.map((item) => (
           <div
@@ -82,4 +82,4 @@ function ExpertBack() {
   );
 }
 
-export default ExpertBack;
+export default ExpertLegs;

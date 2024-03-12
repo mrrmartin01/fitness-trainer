@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Describe from "../data/Describer";
-import BeginnerAbs from "./workouts/Abs/BeginnerAbs";
+import BeginnerAbs from "./workouts/abs/BeginnerAbs";
 import DescribCards from "./DescribCards";
 import SettingsDescib from "./SettingsDescib";
 import Button from "./Button";
