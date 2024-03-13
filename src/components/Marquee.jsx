@@ -5,8 +5,13 @@ import WorkoutsData from "../data/WorkoutsData";
 function Marquee() {
   const [selectedComponent, setSelectedComponent] = useState(null);
 
-  const handleButtonClick = (component) => {
-    setSelectedComponent(component);
+  const handleButtonClick = async (component) => {
+    try {
+      const importedComponent = await import(`../components/workouts/${component}`);
+      setSelectedComponent(importedComponent.default);
+    } catch (error) {
+      console.error("Error importing component:", error);
+    }
   };
 
   return (
@@ -35,13 +40,13 @@ function Marquee() {
                 <p className="text-sm text-gray-300 mt-2">{workouts.intro}</p>
               </div>
             </Link>
-            <button onClick={() => handleButtonClick(workouts.url)} className="w-full inline-block px-4 py-2 bg-yellow-500 text-white font-semibold rounded-b-lg hover:bg-sky-500 transition duration-300">
+            {/* <button onClick={() => handleButtonClick(workouts.url)} className="w-full inline-block px-4 py-2 bg-yellow-500 text-white font-semibold rounded-b-lg hover:bg-sky-500 transition duration-300">
               Get Started
-            </button>
+            </button> */}
           </div>
         ))}
       </div>
-      {selectedComponent}
+      {selectedComponent && <selectedComponent />}
     </div>
   );
 }
