@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Describe from "../data/Describer";
-import BeginnerAbs from "./workouts/abs/BeginnerAbs";
 import DescribCards from "./DescribCards";
 import SettingsDescib from "./SettingsDescib";
 import Button from "./Button";
@@ -10,7 +9,7 @@ import Goals from "./Goals";
 function DiscoverPage1() {
   // const [holder, setHolder] = useState([]);
   const [showVideo, setShowVideo] = useState(false);
-  const [loading, setLoading] = useState(true); // State variable to control loader visibility
+  const [loading, setLoading] = useState(true); 
 
   const videoPopup = () => {
     setShowVideo(true);
@@ -53,7 +52,6 @@ function DiscoverPage1() {
         </div>
       </div>
 
-      <BeginnerAbs />
       {showVideo && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-90">
           <div className="bg-white text-center p-0 rounded-xl w-[55%] h-[600px] ">
