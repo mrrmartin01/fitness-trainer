@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import Card from "../components/Card";
 import Rows from "../components/Rows";
 import "./home.css";
@@ -132,11 +133,14 @@ function Homepage() {
             {/* Map workouts */}
             <div className="flex flex-wrap justify-center ">
               {level.workouts.map((workout) => (
-                <div 
+                <div
                   key={workout.id}
                   className="w-full h-[150px] border-b-2 hover:text-4xl"
                 >
-                  <div className="flex items-center justify-between h-full bg-gray-800 p-4 cursor-pointer">
+                  <Link
+                    to={workout.url.toLowerCase()}
+                    className="flex items-center justify-between h-full bg-gray-800 p-4 cursor-pointer"
+                  >
                     <div className="w-[20%] h-full">
                       <img
                         src={workout.image}
@@ -154,7 +158,7 @@ function Homepage() {
                     <span className="text-white p-3 text-3xl">
                       <FaArrowCircleRight />
                     </span>
-                  </div>
+                  </Link>
                 </div>
               ))}
             </div>

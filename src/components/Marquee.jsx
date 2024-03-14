@@ -4,19 +4,7 @@ import WorkoutsData from "../data/WorkoutsData";
 function Marquee() {
   return (
     <div className="flex justify-center overflow-x-auto" style={{ WebkitOverflowScrolling: "touch" }}>
-      <style>
-        {`
-          ::-webkit-scrollbar {
-            width: 0px; 
-            background-color: transparent;
-          }
-
-          ::-webkit-scrollbar-thumb {
-            background-color: rgba(25, 25, 25, 0.7); 
-            border-radius: 4px; 
-          }
-        `}
-      </style>
+      
       
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex space-x-8">
         {WorkoutsData.map((workouts) => (

@@ -33,7 +33,21 @@ import ExpertBack from "./components/workouts/back/ExpertBack";
 function App() {
   return (
     <>
+    <style>
+        {`
+          ::-webkit-scrollbar {
+            width: 0px; 
+            background-color: transparent;
+          }
+
+          ::-webkit-scrollbar-thumb {
+            background-color: rgba(25, 25, 25, 0.7); 
+            border-radius: 4px; 
+          }
+        `}
+      </style>
       <Routes>
+        
         <Route path="/" element={<Login />} />
         <Route path="app" element={<Home />}>
           <Route index element={<Homepage />} />

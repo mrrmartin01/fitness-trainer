@@ -1,7 +1,7 @@
 
 function Daily() {
   return (
-    <div>
+    <div className="h-[90em]">
       Daily
     </div>
   )
