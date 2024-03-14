@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import Modal from "../../Modal";
-import Loader from "../../Loader"; // Import Loader component
+import Loader from "../../Loader"; 
 
 function BeginnerAbs() {
   const [abs, setAbs] = useState([]);
   const [showModal, setShowModal] = useState(false);
   const [modalContent, setModalContent] = useState({});
-  const [loading, setLoading] = useState(true); // State variable to control loader visibility
+  const [loading, setLoading] = useState(true); 
 
   useEffect(() => {
     fetch("http://localhost:5173/data/workouts/abs/Beginner.json")
