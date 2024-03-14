@@ -20,7 +20,7 @@ function Modal({ video, muscle, instructions, button }) {
 }
 
 Modal.propTypes = {
-  video: PropTypes.string,
+  video: PropTypes.object,
   muscle: PropTypes.string,
   button: PropTypes.element,
   instructions: PropTypes.string,
