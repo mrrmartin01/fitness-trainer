@@ -6,6 +6,7 @@ import Personal from "./pages/Personal";
 import Discover from "./pages/Discover";
 import Login from "./pages/Login";
 import Home from "./pages/Home";
+
 import BeginnerAbs from "./components/workouts/abs/BeginnerAbs";
 import BeginnerChest from "./components/workouts/chest/BeginnerChest";
 import BeginnerLegs from "./components/workouts/legs/BeginnerLegs";
