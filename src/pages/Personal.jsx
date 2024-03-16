@@ -13,7 +13,7 @@ function Personal() {
       <div className="uppercase text-4xl font-bold italic">
         <h2>Unlock your</h2>
         <h2>Personalized plan</h2>
-        <h2 className="text-blue-700">Build muscle</h2>
+        <h2 className="text-blue-500">Build muscle</h2>
       </div>
 
       <div className="mt-[5%]  flex flex-col items-center justify-center">
@@ -35,7 +35,7 @@ function Personal() {
           <Button
             value="UNLOCK"
             className={
-              "w-[20%] text-2xl  mt-[5%] font-bold h-[50px] rounded-full bg-gradient-to-br from-blue-400 to-blue-700"
+              "w-[20%] text-2xl mt-[5%] font-bold border-l-2  hover:border-l-0 border-b-2  hover:border-b-0 h-[50px] rounded-full bg-gradient-to-br from-green-800 to-blue-900"
             }
             type={"submit"}
           />

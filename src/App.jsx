@@ -37,8 +37,8 @@ function App() {
     <style>
         {`
           ::-webkit-scrollbar {
-            width: 0px; 
-            background-color: transparent;
+            width: 10px; 
+            background-color: rgba(25, 25, 25,0.2);
           }
 
           ::-webkit-scrollbar-thumb {

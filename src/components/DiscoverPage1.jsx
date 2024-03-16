@@ -3,6 +3,7 @@ import Describe from "../data/Describer";
 import DescribCards from "./DescribCards";
 import SettingsDescib from "./SettingsDescib";
 import Goals from "./Goals";
+import DiscCard from "./DiscCard";
 
 function DiscoverPage1() {
   // const [holder, setHolder] = useState([]);
@@ -31,8 +32,25 @@ function DiscoverPage1() {
   return (
     <>
       <div className="overflow-x-hidden">
-        <SettingsDescib value="Body focus" />
+        <DiscCard className={'bg-green-500 h-[300px]'} key={20}
+        value={`ghfjvuro uhwei`}
+        img = { `www.yh.com`}
+        />
+        <SettingsDescib value="Select by goals" />
         <Goals />
+
+        <SettingsDescib value="Body focus" />
+        <div className="flex flex-col mb-5">
+          <div className="flex justify-between">
+            <div className="w-[47%] h-[220px] bg-green-500">
+              <img src="www.mis.fit" className="w-full h-full object-cover"/>
+              <span>tvyibunml</span>
+              </div>
+            <div className="w-[47%] h-[220px] bg-green-500"></div>
+          </div>
+          <div className="flex"></div>
+        </div>
+
 
         <SettingsDescib value="Guess You might need" />
         <div className="flex flex-wrap justify-center">

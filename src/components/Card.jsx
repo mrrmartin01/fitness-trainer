@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 function Card({ children }) {
   return (
     <>
-      <div className="w-[45%] h-40 rounded-xl bg-gray-500">{children}</div>
+      <div className="w-[45%] h-40 rounded-xl bg-gray-900">{children}</div>
     </>
   );
 }

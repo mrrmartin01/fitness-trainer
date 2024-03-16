@@ -3,7 +3,7 @@ import DiscoverPage1 from "../components/DiscoverPage1";
 import GymComponent from "../components/GymComponent";
 import WalkRunComponent from "../components/WalkRunComponent";
 import LinkButton from "../components/LinkButton";
-import { FaClock, FaSearch } from "react-icons/fa";
+// import { FaClock, FaSearch } from "react-icons/fa";
 
 function Discover() {
   const [selectedButton, setSelectedButton] = useState("At home");
@@ -33,14 +33,6 @@ function Discover() {
             <span className="uppercase text-4xl font-semibold font-serif italic">
               Discover
             </span>
-          </div>
-          <div className="flex text-4xl gap-5 mx-2 text-blue-500">
-            <button>
-              <FaSearch className="" />
-            </button>
-            <button>
-              <FaClock className="" />
-            </button>
           </div>
         </div>
 

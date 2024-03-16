@@ -22,7 +22,7 @@ import ExpertShoulder from "../components/workouts/shoulder/ExpertShoulder";
 import ExpertBack from "../components/workouts/back/ExpertBack";
 function Daily() {
   return (
-    <div className="h-[90em]">
+    <div className="h-fit flex flex-col gap-4">
     <BeginnerAbs/>
     <BeginnerChest/>
     <BeginnerLegs />

@@ -107,19 +107,18 @@ function Homepage() {
           </Card>
         </div>
         <button className="flex flex-row cursor-pointer justify-start gap-4 mt-4 text-2xl text-gray-500 font-bold">
-          <p>Recent</p>
           <p>My Plan</p>
         </button>
 
         <Marquee />
         <Button
-          value="Explore all plan(11)"
+          value="Explore all plans"
           icon={
             <div className="text-gray-500 p-2 text-[20px]">
               <BsFillGrid1X2Fill />
             </div>
           }
-          className={`bg-gray-700 hover:bg-blue-700 text-white capitalize w-[40%] h-12 rounded-full p-2 m-auto mt-8 flex items-center justify-center`}
+          className={`bg-blue-600 hover:bg-gradient-to-r from-blue-700 to-green-500 text-white capitalize w-[40%] h-12 rounded-full p-2 m-auto mt-8 flex items-center justify-center`}
           style={{ color: "gray" }}
         />
 
