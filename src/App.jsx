@@ -6,6 +6,7 @@ import Personal from "./pages/Personal";
 import Discover from "./pages/Discover";
 import Login from "./pages/Login";
 import Home from "./pages/Home";
+
 import BeginnerAbs from "./components/workouts/abs/BeginnerAbs";
 import BeginnerChest from "./components/workouts/chest/BeginnerChest";
 import BeginnerLegs from "./components/workouts/legs/BeginnerLegs";
@@ -36,8 +37,8 @@ function App() {
     <style>
         {`
           ::-webkit-scrollbar {
-            width: 0px; 
-            background-color: transparent;
+            width: 10px; 
+            background-color: rgba(25, 25, 25,0.2);
           }
 
           ::-webkit-scrollbar-thumb {

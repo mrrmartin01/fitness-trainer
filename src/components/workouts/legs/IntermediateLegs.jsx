@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
 import Modal from "../../Modal";
+import Heading from "../../Heading";
 
 function IntermediateLegs() {
   const [abs, setAbs] = useState([]);
-  const [showModal, setShowModal] = useState(false); // State variable to control modal visibility
-  const [modalContent, setModalContent] = useState({}); // State variable to store modal content
+  const [showModal, setShowModal] = useState(false); 
+  const [modalContent, setModalContent] = useState({}); 
 
   useEffect(() => {
     fetch("http://localhost:5173/data/workouts/legs/Intermediate.json")
@@ -23,25 +24,25 @@ function IntermediateLegs() {
   }, []);
 
   const openModal = (item) => {
-    setModalContent(item); // Set modal content based on the selected item
-    setShowModal(true); // Set showModal to true when button is clicked
+    setModalContent(item); 
+    setShowModal(true); 
   };
 
   return (
     <>
-      <p className="uppercase">Intermediate arms</p>
+    <Heading value={'Intermediate Leg training'} />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-5">
         {abs.map((item) => (
           <div
             key={item.id}
-            className="border border-gray-200 rounded-lg shadow-md overflow-hidden"
+            className="rounded-lg shadow-2xl overflow-hidden"
           >
             <img
               src={item.image}
               alt={item.name}
               className="w-full h-48 object-cover"
             />
-            <div className="p-4 bg-gray-700">
+            <div className="p-4 bg-black">
               <p className="text-2xl font-bold capitalize mb-2">{item.name}</p>
               <p className="text-md font-semibold capitalize ">
                 {item.muscle} * {item.difficulty}
@@ -51,7 +52,7 @@ function IntermediateLegs() {
               <div className="flex justify-between">
                 <button
                   onClick={() => openModal(item)}
-                  className="px-4 py-2 w-full bg-red-500 text-center font-bold text-white rounded-md hover:bg-red-600 transition duration-300"
+                  className="px-4 py-2 w-full bg-blue-500 text-center font-bold text-white rounded-md hover:bg-blue-600 transition duration-300"
                 >
                   Start Workout
                 </button>

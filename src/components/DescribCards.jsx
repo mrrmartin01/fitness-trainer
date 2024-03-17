@@ -8,7 +8,7 @@ function DescribCards({ id, image, type, duration, onClick }) {
           <img
             src={image}
             alt={type}
-            className="w-full h-full object-cover rounded-lg bg-red-400"
+            className="w-full h-full object-cover rounded-lg bg-green-500"
             style={{ maxWidth: "100%", maxHeight: "100%" }}
           />
         </div>

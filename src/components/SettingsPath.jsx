@@ -8,7 +8,7 @@ function SettingsPath({
   className,
 }) {
   return (
-    <div className="bg-gray-700 hover:bg-gray-900 transition duration-[0.4s] ease-linear border-b-[1px] border-gray-300 w-[102.3%] h-[70px] flex flex-row items-center justify-between">
+    <div className="bg-gray-900 hover:bg-black transition duration-[0.4s] ease-linear border-b-[1px] border-gray-300 w-[102.3%] h-[70px] flex flex-row items-center justify-between">
       <button className="flex flex-row items-center justify-between p-3 w-full h-full">
         <div className="flex flex-row items-center justify-center">
           <div className={` ${className}`}>{icon}</div>
