@@ -5,7 +5,7 @@ function InputField({ type, className, label,onChange, autoComplete, placeholder
   return (
     <>
       <label className="mt-1 label-style text-lg">{label}</label>
-      <input type={type} className={className} onChbange={onChange} placeholder= {placeholder} autoComplete={autoComplete} />
+      <input type={type} className={className} onChange={onChange} placeholder= {placeholder} autoComplete={autoComplete} />
     </>
   );
 }
